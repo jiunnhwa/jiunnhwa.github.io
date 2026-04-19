@@ -1,0 +1,71 @@
+# Site settings
+title: "Chan Jiunn Hwa - Solution Lead & Full Stack Developer"
+name: "Chan Jiunn Hwa"
+description: "Solution Lead & Full Stack Developer | 20+ years in FinTech, Logistics, and Enterprise Systems"
+url: "https://jiunnhwa.github.io"
+baseurl: ""
+
+# Build settings
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Navigation sections (for sidebar)
+nav_sections:
+  - title: "Main"
+    items:
+      - name: "🏠 Home"
+        url: "/"
+        icon: "🏠"
+      - name: "📝 Blog"
+        url: "/blog/"
+        icon: "📝"
+      - name: "🚀 Projects"
+        url: "/projects/"
+        icon: "🚀"
+  - title: "Connect"
+    items:
+      - name: "🐙 GitHub"
+        url: "https://github.com/jiunnhwa"
+        icon: "🐙"
+      - name: "🔗 LinkedIn"
+        url: "https://linkedin.com/in/zeonchan"
+        icon: "🔗"
+      - name: "✉️ Email"
+        url: "mailto:zeonchan01@gmail.com"
+        icon: "✉️"
+  - title: "Resources"
+    items:
+      - name: "📄 Download PDF"
+        url: "#"
+        icon: "📄"
+        id: "pdf-download"
+      - name: "🌓 Dark Mode"
+        url: "#"
+        icon: "🌙"
+        id: "dark-mode-toggle"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Chan Jiunn Hwa"
+
+# Sass
+sass:
+  style: compressed
+
+# Plugins (GitHub Pages supports these automatically)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

@@ -1,0 +1,33 @@
+<button class="mobile-toggle" id="mobileToggle">
+    <i class="fas fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <div class="avatar">
+            👨‍💻
+        </div>
+        <div class="name">Chan Jiunn Hwa</div>
+        <div class="tagline">Solution Lead & Full Stack Developer</div>
+        <div class="years">20+ years experience</div>
+    </div>
+    
+    {% for section in site.nav_sections %}
+    <div class="nav-section">
+        <h4>{{ section.title }}</h4>
+        {% for item in section.items %}
+        <a href="{{ item.url | relative_url }}" class="nav-item" {% if item.id %}id="{{ item.id }}"{% endif %}>
+            <span class="nav-icon">{{ item.icon }}</span>
+            <span>{{ item.name }}</span>
+        </a>
+        {% endfor %}
+    </div>
+    {% endfor %}
+    
+    <div class="social-links">
+        <a href="https://github.com/jiunnhwa" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/zeonchan" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:zeonchan01@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+</div>
