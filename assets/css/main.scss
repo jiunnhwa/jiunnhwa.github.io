@@ -493,38 +493,80 @@ body.dark {
 }
 
 /* Post Content */
+.post-header {
+    margin-bottom: 2rem;
+    
+    .post-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .post-meta {
+        font-size: 0.85rem;
+        color: var(--text-light);
+    }
+}
+
 .post-content {
     h2 {
-        margin: 1.5rem 0 0.75rem;
+        font-size: 1.5rem;
+        margin: 1.8rem 0 0.75rem;
+        padding-bottom: 0.3rem;
+        border-bottom: 1px solid var(--border-color);
     }
     
     h3 {
+        font-size: 1.25rem;
+        margin: 1.5rem 0 0.5rem;
+    }
+    
+    h4 {
+        font-size: 1.1rem;
         margin: 1.25rem 0 0.5rem;
     }
     
-    /* Code blocks - FIXED */
-    code {
-        background: var(--code-bg);
-        padding: 0.2rem 0.3rem;
-        border-radius: 4px;
-        font-size: 0.9em;
-        font-family: 'Courier New', 'SF Mono', 'Monaco', 'Menlo', monospace;
+    p {
+        margin: 1rem 0;
+        line-height: 1.7;
     }
     
+    /* Inline code */
+    code {
+        background: var(--code-bg);
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        font-size: 0.9em;
+        font-family: 'Courier New', 'SF Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
+        color: var(--text-color);
+    }
+    
+    /* Code blocks */
     pre {
         background: var(--code-bg);
-        padding: 1rem;
+        padding: 1rem 1.2rem;
         border-radius: 8px;
         overflow-x: auto;
-        margin: 1rem 0;
+        margin: 1.2rem 0;
+        line-height: 1.45;
         
         code {
             background: none;
             padding: 0;
             font-size: 0.85rem;
-            line-height: 1.5;
+            line-height: inherit;
             display: block;
+            color: inherit;
         }
+    }
+    
+    /* Lists inside post content */
+    ul, ol {
+        margin: 1rem 0;
+        padding-left: 2rem;
+    }
+    
+    li {
+        margin: 0.25rem 0;
     }
     
     blockquote {
@@ -533,5 +575,23 @@ body.dark {
         padding-left: 1rem;
         font-style: italic;
         color: var(--text-light);
+    }
+    
+    /* Tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+    }
+    
+    th, td {
+        border: 1px solid var(--border-color);
+        padding: 0.5rem 0.75rem;
+        text-align: left;
+    }
+    
+    th {
+        background: var(--sidebar-bg);
+        font-weight: 600;
     }
 }
