@@ -6,6 +6,7 @@ categories: [Leadership, Philosophy, Systems Design, Career]
 excerpt: "I have two degrees people don't expect in tech: Philosophy and an MBA in Strategic Management. Here's how they made me a better tech lead — and how they can help you too."
 ---
 
+
 I have two degrees that raise eyebrows in tech interviews.
 
 - **A Bachelor of Arts in Philosophy and Sociology.**  
@@ -19,7 +20,9 @@ The short answer: **The same skills that I learned from The Socratic Method, Kan
 
 In other words, it's the art and science of solutioning — what I call **the physics of 4S**.
 
+
 ---
+
 
 ## The 4S Framework
 
@@ -34,7 +37,9 @@ Over two decades of building systems for logistics, fintech, travel, and telco, 
 
 Let me walk through them with some real stories from my career.
 
+
 ---
+
 
 ## 1. Socrates: First Principles and the Ghost Bug
 
@@ -64,7 +69,9 @@ The root cause? Likely a copy-paste error in a state transition handler, within 
 
 **The lesson:** Often-times, the solutions is 'out-of-the-box'.
 
+
 ----------
+
 
 ## 2. Scenario Planning: Future-Proofing Against the Unknown
 
@@ -90,7 +97,9 @@ We packaged a custom solution that exceeded both technical requirements (handlin
 
 **The lesson:** Scenario planning imbues a flexibility in thinking and solutioning while remaining core.
 
+
 ----------
+
 
 ## 3. Systems Thinking: Seeing the Whole, Not Just the Parts
 
@@ -113,7 +122,9 @@ The result? 7,000 pieces per hour, < 5 second average response time — better t
 
 **The lesson:** True service improvements often comes not from optimizing a component in isolation. Systems thinking means understanding the environment, the workflow, the people, and the legacy constraints. Focusing on a component often means just shifting to the next bottleneck.
 
+
 ----------
+
 
 ## 4. Strategic Management: The Ironic Truth About Long Run Productivity
 
@@ -127,7 +138,9 @@ Similar ideas were later implemented in the US at Google, the Magnificent 7, and
 
 **The lesson:** Management isn't just about resource allocation — it's about understanding that human creativity is the ultimate resource. Hence, senior management needs to make allowances for creativity space-and-time in order to foster a long-running learning and innovative organization.
 
+
 ----------
+
 
 ## The Synthesis
 
@@ -146,8 +159,19 @@ Scenario Planning taught me to **prepare for multiple futures.**
 Systems Thinking taught me to **see the whole picture but be systemmatic in approach.**  
 Strategic Management taught me that **people are the real resource.**
 
+
 ----------
+
 
 ## Key Takeaway
 
 **Your 'unexpected' background can be an asset** — Physics, Philosophy, Programming, Sociology and the Liberal Arts — combining Arts and Science to deliver a holistic solution. And having multi-domain knowledge means you have an extra tool to use.
+
+
+----------
+
+
+## Further Reading
+- **Coming soon:** "How I Fixed a Ghost Bug That Stumped Engineers for 3 Years" — the full story of the MRT fan incident
+- **Coming soon:** *"How I Took Jenkins Builds from 3+ Hours to Under 1 Minute"* — 100X pipeline optimization
+- **Coming soon:** "Building Singapore's First MAS-Approved Retail FX Platform" — beating Currenex and Bloomberg
