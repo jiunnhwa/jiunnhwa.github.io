@@ -614,3 +614,66 @@ body.dark {
         border-top: 1px solid $border-color;
     }
 }
+
+/* ============================================ */
+/* EMERGENCY CODE BLOCK FIX - Direct selectors  */
+/* ============================================ */
+
+/* Target code blocks directly */
+pre, code {
+    font-family: 'Courier New', 'SF Mono', 'Monaco', monospace !important;
+}
+
+pre {
+    background: #f7fafc !important;
+    padding: 1rem !important;
+    border-radius: 8px !important;
+    overflow-x: auto !important;
+    margin: 1.2rem 0 !important;
+    line-height: 1.45 !important;
+}
+
+pre code {
+    background: none !important;
+    padding: 0 !important;
+    font-size: 0.85rem !important;
+    display: block !important;
+}
+
+/* Inline code */
+code {
+    background: #f7fafc !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 4px !important;
+    font-size: 0.9em !important;
+}
+
+/* Dark mode */
+body.dark pre {
+    background: #1e293b !important;
+}
+
+body.dark code {
+    background: #1e293b !important;
+}
+
+/* Paragraph spacing */
+.post-content p,
+article p,
+main p {
+    margin: 1rem 0 !important;
+    line-height: 1.7 !important;
+}
+
+/* Headers spacing */
+.post-content h2,
+article h2 {
+    margin: 1.8rem 0 0.75rem !important;
+    padding-bottom: 0.3rem !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+}
+
+.post-content h3,
+article h3 {
+    margin: 1.5rem 0 0.5rem !important;
+}
