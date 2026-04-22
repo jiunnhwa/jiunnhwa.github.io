@@ -18,6 +18,7 @@ $dark-sidebar-bg: #1e293b;
 $dark-text: #e2e8f0;
 $dark-text-light: #94a3b8;
 $dark-border: #334155;
+$dark-code-bg: #1e293b;
 
 // Layout
 $sidebar-width: 280px;
@@ -56,6 +57,12 @@ body.dark {
     
     .job-description, .section h2 {
         border-color: $dark-border;
+    }
+    
+    /* Dark mode code blocks */
+    .post-content code,
+    .post-content pre {
+        background: $dark-code-bg;
     }
 }
 
@@ -383,7 +390,7 @@ body.dark {
     color: $text-light;
 }
 
-/* Blog Styles */
+/* Blog Listing Styles */
 .blog-header, .projects-header {
     margin-bottom: 2rem;
     
@@ -416,6 +423,10 @@ body.dark {
         .post-meta {
             font-size: 0.8rem;
             color: $text-light;
+            margin-bottom: 0.75rem;
+        }
+        
+        .post-excerpt {
             margin-bottom: 0.75rem;
         }
         
@@ -477,7 +488,10 @@ body.dark {
     border-top: 1px solid $border-color;
 }
 
-/* Post Content */
+/* ============================================ */
+/* POST CONTENT STYLES (Blog Article Page)      */
+/* ============================================ */
+
 .post-header {
     margin-bottom: 2rem;
     
@@ -490,20 +504,18 @@ body.dark {
         font-size: 0.85rem;
         color: $text-light;
     }
-}
-
-/* Post Content */
-.post-header {
-    margin-bottom: 2rem;
     
-    .post-title {
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .post-meta {
-        font-size: 0.85rem;
-        color: var(--text-light);
+    .post-categories {
+        margin-top: 0.5rem;
+        
+        .category {
+            display: inline-block;
+            background: $sidebar-bg;
+            padding: 0.2rem 0.5rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-right: 0.5rem;
+        }
     }
 }
 
@@ -512,7 +524,7 @@ body.dark {
         font-size: 1.5rem;
         margin: 1.8rem 0 0.75rem;
         padding-bottom: 0.3rem;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 1px solid $border-color;
     }
     
     h3 {
@@ -532,17 +544,17 @@ body.dark {
     
     /* Inline code */
     code {
-        background: var(--code-bg);
+        background: $code-bg;
         padding: 0.2rem 0.4rem;
         border-radius: 4px;
         font-size: 0.9em;
         font-family: 'Courier New', 'SF Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
-        color: var(--text-color);
+        color: #e53e3e;  /* Slight red tint for inline code visibility */
     }
     
     /* Code blocks */
     pre {
-        background: var(--code-bg);
+        background: $code-bg;
         padding: 1rem 1.2rem;
         border-radius: 8px;
         overflow-x: auto;
@@ -555,7 +567,7 @@ body.dark {
             font-size: 0.85rem;
             line-height: inherit;
             display: block;
-            color: inherit;
+            color: $text-color;
         }
     }
     
@@ -570,11 +582,11 @@ body.dark {
     }
     
     blockquote {
-        border-left: 3px solid var(--primary-color);
+        border-left: 3px solid $primary-color;
         margin: 1rem 0;
         padding-left: 1rem;
         font-style: italic;
-        color: var(--text-light);
+        color: $text-light;
     }
     
     /* Tables */
@@ -585,13 +597,20 @@ body.dark {
     }
     
     th, td {
-        border: 1px solid var(--border-color);
+        border: 1px solid $border-color;
         padding: 0.5rem 0.75rem;
         text-align: left;
     }
     
     th {
-        background: var(--sidebar-bg);
+        background: $sidebar-bg;
         font-weight: 600;
+    }
+    
+    /* Horizontal rule */
+    hr {
+        margin: 2rem 0;
+        border: none;
+        border-top: 1px solid $border-color;
     }
 }
