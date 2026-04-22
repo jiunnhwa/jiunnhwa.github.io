@@ -492,6 +492,7 @@ body.dark {
     }
 }
 
+/* Post Content */
 .post-content {
     h2 {
         margin: 1.5rem 0 0.75rem;
@@ -501,25 +502,36 @@ body.dark {
         margin: 1.25rem 0 0.5rem;
     }
     
+    /* Code blocks - FIXED */
     code {
-        background: $code-bg;
+        background: var(--code-bg);
         padding: 0.2rem 0.3rem;
         border-radius: 4px;
         font-size: 0.9em;
+        font-family: 'Courier New', 'SF Mono', 'Monaco', 'Menlo', monospace;
     }
     
     pre {
-        background: $code-bg;
+        background: var(--code-bg);
         padding: 1rem;
-        border-radius: $border-radius;
+        border-radius: 8px;
         overflow-x: auto;
+        margin: 1rem 0;
+        
+        code {
+            background: none;
+            padding: 0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            display: block;
+        }
     }
     
     blockquote {
-        border-left: 3px solid $primary-color;
+        border-left: 3px solid var(--primary-color);
         margin: 1rem 0;
         padding-left: 1rem;
         font-style: italic;
-        color: $text-light;
+        color: var(--text-light);
     }
 }
