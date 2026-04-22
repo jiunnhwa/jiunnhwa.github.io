@@ -20,7 +20,7 @@ Not Computer Science. Not Engineering. (Though I do have a Graduate Diploma in S
 When people hear this, they usually ask the same question: *"How did you end up as a Solutions Manager and also a Full Stack Developer?"*
 
 
-The short answer: **The same skills that I learned from The Socratic Method, Kant's Category Theory, Heisenberg Uncertainty Principle, Boolean's Logic, Porter's Five Forces; or through modelling Newtonian classifcal physics into socio-ethnic relations — those same skills help me debug production outages at 3 AM and design systems that are award winning.**
+The short answer: **The same skills that I learned from The Socratic Method, Kant's Category Theory, Heisenberg Uncertainty Principle, Boolean's Logic, Porter's Five Forces; or through modelling Newtonian classical physics unto socio-ethnic relations — those same skills help me debug production outages at 3 AM and design systems that are award winning.**
 
 
 In other words, it's the art and science of solutioning — what I call **the physics of 4S** - a tested methodology that works across industries.
