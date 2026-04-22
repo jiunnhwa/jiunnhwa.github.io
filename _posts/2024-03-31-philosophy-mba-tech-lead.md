@@ -67,6 +67,7 @@ def parse_log_line(line):
     return match.groups() if match else None
 ```
 
+
 ### This simple parser++ laid to rest a multi-year year-old bug
 
 The root cause? Likely a copy-paste error in a state transition handler, within a C language code-base that has seen multi-generations of 'trendy' coding styles, and patches-upon-patches - a scenario unfortunately not too un-common. 
