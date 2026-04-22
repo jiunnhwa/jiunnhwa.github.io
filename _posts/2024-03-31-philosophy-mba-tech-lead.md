@@ -4,6 +4,7 @@ subtitle: "The physics of 4S: how Socrates, Scenario Planning, Systems Thinking,
 date: 2024-03-31
 categories: [Leadership, Philosophy, Systems Design, Career]
 excerpt: "I have two degrees people don't expect in tech: Philosophy and an MBA in Strategic Management. Here's how they made me a better tech lead — and how they can help you too."
+layout: post
 ---
 
 
