@@ -177,6 +177,6 @@ Strategic Management taught me that **people are the real resource.**
 
 
 ## Further Reading
-- **Coming soon:** "How I Fixed a Ghost Bug That Stumped Engineers for 3 Years" — the full story of the MRT fan incident
+- **Coming soon:** "How I Fixed a Ghost Bug That Stumped Engineers for Years" — the full story of the MRT fan incident
 - **Coming soon:** *"How I Took Jenkins Builds from 3+ Hours to Under 1 Minute"* — 100X pipeline optimization
 - **Coming soon:** "Building Singapore's First MAS-Approved Retail FX Platform" — beating Currenex and Bloomberg
