@@ -12,7 +12,16 @@
         <div class="tagline">Solution Lead & Full Stack Developer</div>
         <div class="years">20+ years experience</div>
     </div>
-    
+
+    <!-- ===== QR CODE SECTION (NEW) ===== -->
+    <div class="qr-section">
+        <div class="qr-container">
+            <img src="{{ '/assets/images/qr-code.png' | relative_url }}" alt="QR Code for jiunnhwa.github.io" class="qr-image">
+            <p class="qr-label">Scan to visit my site</p>
+        </div>
+    </div>
+    <!-- ===== END QR CODE SECTION ===== -->
+
     {% for section in site.nav_sections %}
     <div class="nav-section">
         <h4>{{ section.title }}</h4>
@@ -26,9 +35,9 @@
     {% endfor %}
     
     <div class="social-links">
-        <a href="https://github.com/jiunnhwa" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/zeonchan" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="https://e27.co/user/jiunn/" target="_blank" title="e27"><i class="fas fa-seedling"></i></a>
-        <a href="mailto:zeonchan01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/jiunnhwa" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/zeonchan" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://e27.co/user/jiunn/" target="_blank"><i class="fas fa-seedling"></i></a>
+        <a href="mailto:zeonchan01@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
 </div>
