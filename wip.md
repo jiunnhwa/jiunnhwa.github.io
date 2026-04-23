@@ -15,9 +15,9 @@ Read them at [e27.co/user/jiunn/](https://e27.co/user/jiunn){:target="_blank"}
 
 ## Side Projects(pre-MVP, wip)
 Around the time of Generative AI module, about 2-3 weeks ago, I started some side projects for some ideas/pain-points I had in mind for some time:
-- [Json data store]([https://github.com](https://kimi-falling-breeze-8431.fly.dev){:target="_blank"}  - A json database written using golang with embedded frontend javascript. still pre-MVP website.
-- [Mortage Calculator]([https://github.com](https://homeloanexpert.sg/how-to-calculate-your-mortgage-repayment-in-singapore){:target="_blank"}  - PWA Javascript calculator, may extend to content publishing in order to get traffic.
-- [Financial Dashboard PWA]([https://github.com](https://homeloanexpert.sg/_/tpl){:target="_blank"} - Financial dashboard PWA with mockup data
-- [Investment News Dashboard]([https://github.com](https://homeloanexpert.sg/_/finddash){:target="_blank"} - proposed site for investment news dashboard with AI - Javascript FE, expanding to using Python/OpenAI at the backend for  news+sentiment analysis, keeping front-end for as presentation layer only
+- [Json data store](https://kimi-falling-breeze-8431.fly.dev){:target="_blank"}  - A json database written using golang with embedded frontend javascript. still pre-MVP website.
+- [Mortage Calculator](https://homeloanexpert.sg/how-to-calculate-your-mortgage-repayment-in-singapore){:target="_blank"}  - PWA Javascript calculator, may extend to content publishing in order to get traffic.
+- [Financial Dashboard PWA](https://homeloanexpert.sg/_/tpl){:target="_blank"} - Financial dashboard PWA with mockup data
+- [Investment News Dashboard](https://homeloanexpert.sg/_/finddash){:target="_blank"} - proposed site for investment news dashboard with AI - Javascript FE, expanding to using Python/OpenAI at the backend for  news+sentiment analysis, keeping front-end for as presentation layer only
 
 Overall, AI has been helpful in productivity - quite a lot done in less than a month.
