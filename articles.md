@@ -14,6 +14,19 @@ permalink: /articles/
         <!-- All articles go here. The first 5 will show, rest hidden -->
         <!-- Add NEW articles at the TOP of this list -->
 
+
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/from-shell-to-startups-why-scenario-planning-matters-in-a-volatile-times-20260406/" target="_blank">From shell to startups: Why scenario planning matters in volatile times | e27</a>
+            </h2>
+            <div class="article-meta">📅 6 April 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+                Scenario planning helps businesses navigate uncertainty by preparing for multiple outcomes, shifting focus from prediction to resilience
+            </div>
+            <a href="https://e27.co/from-shell-to-startups-why-scenario-planning-matters-in-a-volatile-times-20260406/" class="read-article" target="_blank">Read on e27 →</a>
+        </article>
+
+
         <article class="article-item">
             <h2 class="article-title">
                 <a href="https://e27.co/from-frameworks-to-flow-what-agile-really-teaches-us-about-building-in-uncertainty-20260413/" target="_blank">From frameworks to flow: What Agile really teaches us about building in uncertainty</a>
