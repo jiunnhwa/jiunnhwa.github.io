@@ -489,6 +489,94 @@ body.dark {
 }
 
 /* ============================================ */
+/* ARTICLES PAGE STYLES                         */
+/* ============================================ */
+
+.articles-header {
+    margin-bottom: 2rem;
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: var(--text-light);
+        font-size: 0.9rem;
+    }
+
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.articles-list {
+    margin: 2rem 0;
+}
+
+.article-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+
+    .article-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+
+        a {
+            color: var(--text-color);
+            text-decoration: none;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    .article-meta {
+        font-size: 0.8rem;
+        color: var(--text-light);
+        margin-bottom: 0.75rem;
+    }
+
+    .article-excerpt {
+        margin-bottom: 0.75rem;
+        color: var(--text-secondary);
+        line-height: 1.6;
+    }
+
+    .read-article {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.articles-footer {
+    margin-top: 2rem;
+    text-align: center;
+
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* ============================================ */
 /* POST CONTENT STYLES (Blog Article Page)      */
 /* ============================================ */
 
