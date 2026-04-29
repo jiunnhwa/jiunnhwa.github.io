@@ -501,8 +501,10 @@ body.dark {
     }
 
     p {
-        color: var(--text-light);
-        font-size: 0.9rem;
+        font-style: italic;
+        border-left: 3px solid var(--accent-color);
+        padding-left: 1rem;
+        margin-top: 0.5rem;
     }
 
     a {
