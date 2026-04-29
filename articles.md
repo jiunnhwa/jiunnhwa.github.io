@@ -27,6 +27,17 @@ permalink: /articles/
 
         <article class="article-item">
             <h2 class="article-title">
+                <a href="https://e27.co/from-conflict-to-compute-how-war-oil-and-energy-will-reshape-the-future-of-startups-20260324/" target="_blank">From conflict to compute: How war, oil, and energy will reshape the future of startups | e27</a>
+            </h2>
+            <div class="article-meta">📅 24 March 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+                Geopolitical energy shocks raise oil prices, tighten capital, and reshape startup innovation toward efficiency, resilience, and AI energy challenges
+            </div>
+            <a href="https://e27.co/from-conflict-to-compute-how-war-oil-and-energy-will-reshape-the-future-of-startups-20260324/" class="read-article" target="_blank">Read on e27 →</a>
+        </article>
+
+        <article class="article-item">
+            <h2 class="article-title">
                 <a href="https://e27.co/the-digital-economys-broken-promise-how-tech-restructured-inequality-instead-of-erasing-it-20260322/" target="_blank">The digital economy's broken promise: How tech restructured inequality instead of erasing it</a>
             </h2>
             <div class="article-meta">📅 March 22, 2026 | 📍 e27</div>
