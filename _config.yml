@@ -23,6 +23,9 @@ nav_sections:
       - name: "Projects"
         url: "/projects/"
         icon: "🚀"
+      - name: "Articles"
+        url: "/articles/"
+        icon: "✍️"  
   - title: "Connect"
     items:
       - name: "GitHub"
