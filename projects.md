@@ -4,6 +4,17 @@ title: "Projects"
 permalink: /projects/
 ---
 
+<div class="project-card">
+    <h3>Digital Transformation Capstone: Client Corporation</h3>
+    <p class="project-tech">Power BI · Microsoft Copilot Studio · Power Automate · SharePoint · Microsoft Teams</p>
+    <p>Led a work-integrated digital transformation initiative that delivered three integrated solutions:</p>
+    <ul style="margin: 0.5rem 0 0.5rem 1rem; font-size: 0.85rem;">
+        <li><strong>Power BI Sales Analytics:</strong> Interactive dashboards with real-time sales analysis, customer segmentation, and profitability insights across regions, categories, and cities.</li>
+        <li><strong>"GDPR Coach" Chatbot:</strong> Built with Microsoft Copilot Studio to educate sales executives on data protection principles through interactive modules, simulations, and a DSAR quiz.</li>
+        <li><strong>Travel Request Automation:</strong> End-to-end Power Automate workflow with Microsoft Forms, SharePoint, Teams, and Outlook — eliminating manual follow-ups and reducing approval delays.</li>
+    </ul>
+    <p style="margin-top: 0.5rem;">The project followed structured milestone-based execution with MoSCoW prioritisation, iterative testing, and integrated change control.</p>
+</div>
 <div class="projects">
     <header class="projects-header">
         <h1>🚀 Projects</h1>
