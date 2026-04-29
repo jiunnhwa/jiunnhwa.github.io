@@ -15,6 +15,15 @@ permalink: /articles/
         <!-- ================================================== -->
         <!-- ADD NEW ARTICLES AT THE TOP (ABOVE THIS LINE)      -->
         <!-- ================================================== -->
+        
+        
+        <article class="article-item">
+           <h2 class="article-title">                <a href="https://e27.co/from-frameworks-to-flow-what-agile-really-teaches-us-about-building-in-uncertainty-20260413/" target="_blank">From frameworks to flow: What Agile really teaches us about building in uncertainty</a>            </h2>
+           <div class="article-meta">📅 Recent | 📍 e27</div>
+           <div class="article-excerpt">                A detailed exploration of From frameworks to flow: What Agile really teaches us about building in uncertai...            </div>
+           <a href="https://e27.co/from-frameworks-to-flow-what-agile-really-teaches-us-about-building-in-uncertainty-20260413/" class="read-article" target="_blank">Read on e27 →</a>        
+        </article>
+
 
         <article class="article-item">
             <h2 class="article-title">
