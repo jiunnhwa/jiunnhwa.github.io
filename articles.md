@@ -15,6 +15,18 @@ permalink: /articles/
         <!-- ================================================== -->
         <!-- ADD NEW ARTICLES AT THE TOP (ABOVE THIS LINE)      -->
         <!-- ================================================== -->
+
+
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/the-digital-economys-broken-promise-how-tech-restructured-inequality-instead-of-erasing-it-20260322/" target="_blank">The digital economy's broken promise: How tech restructured inequality instead of erasing it | e27</a>
+            </h2>
+            <div class="article-meta">📅 22 March 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+                Digital platforms and AI are reshaping inequality, making intentional design of participatory systems essential for broader economic opportunity
+            </div>
+            <a href="https://e27.co/the-digital-economys-broken-promise-how-tech-restructured-inequality-instead-of-erasing-it-20260322/" class="read-article" target="_blank">Read on e27 →</a>
+        </article>
         
         
         <article class="article-item">
