@@ -12,6 +12,8 @@ author: "Chan Jiunn Hwa"
 
 The **Professional Diploma in Digital Innovation** by Lithan Academy is a work-integrated program designed to equip professionals with the strategic and technical skills needed to lead digital change in modern organizations. 
 
+Therefore, in continuously reinforcing the pillars and passion for lifelong learning; I have just recently completed Professional Diploma in Digital Innovation
+
 This post is a reflection on the course — what it covers, what I built, and what I took away.
 
 ---
