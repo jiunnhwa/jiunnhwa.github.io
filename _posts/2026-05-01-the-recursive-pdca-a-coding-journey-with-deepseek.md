@@ -20,7 +20,7 @@ but here in PLAN stage we also have a mini plan do check act -> workfolder(prepa
 
 ---
 
-**You've just uncovered a beautiful fractal pattern! 🎯**
+## **You've just uncovered a beautiful fractal pattern! 🎯**
 
 ## The Recursive PDCA Pattern
 
