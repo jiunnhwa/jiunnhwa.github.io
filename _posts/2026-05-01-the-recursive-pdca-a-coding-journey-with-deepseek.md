@@ -1,3 +1,14 @@
+---
+title: "Building A Fractal Pipeline - A Man-Machine Story"
+subtitle: "A coding discourse between me and machine"
+date: 2025-05-01 09:00:00 +0800
+categories: [AI, Pipelines, PDCA]
+tags: [Deepseek, Claude, Pipelines, PDCA]
+excerpt: "While mainstream talks about engineering ways of prompting like RICE, etc, my natural conversational style resulted in a beautiful conversation and outcome."
+layout: post
+author: "Chan Jiunn Hwa"
+---
+
 
 ## Building A Fractal Pipeline - A Man-Machine Story
 
