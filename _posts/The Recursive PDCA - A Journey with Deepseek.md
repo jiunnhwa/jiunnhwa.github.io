@@ -1,4 +1,9 @@
 
+## Building A Pipeline
+
+It started with this diagram I had ...
+
+<img width="679" height="664" alt="image" src="https://github.com/user-attachments/assets/62e3c965-3171-4fbf-9e1e-080e8faf5be5" />
 
 
 
