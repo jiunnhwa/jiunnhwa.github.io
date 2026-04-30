@@ -12,7 +12,7 @@ author: "Chan Jiunn Hwa"
 
 ## Building A Fractal Pipeline - A Man-Machine Story
 
-It was a dark night on May Day where this story began.
+It was a dark night on May Day where this story began, aiyoyo, since when nights are not dark ...
 
 It started with this diagram I had ...
 
