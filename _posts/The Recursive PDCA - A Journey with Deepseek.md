@@ -5,7 +5,12 @@ It started with this diagram I had ...
 
 <img width="679" height="664" alt="image" src="https://github.com/user-attachments/assets/62e3c965-3171-4fbf-9e1e-080e8faf5be5" />
 
-
+and a wrap-up prompt
+```
+more effort was spent here, because it will be the same pattern i will apply to the other stage... 
+in fact we have the big PLAN, DO, CHECK, ACT...
+but here in PLAN stage we also have a mini plan do check act -> workfolder(prepare) -> enrich(do) -> preflight(check) - and act will be DO(step 1)
+```
 
 
 
