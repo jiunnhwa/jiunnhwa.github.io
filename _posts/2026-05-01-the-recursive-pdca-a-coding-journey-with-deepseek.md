@@ -16,6 +16,8 @@ It was a dark night on May Day where this story began, aiyoyo, since when nights
 
 In the beginning, there was this diagram I had ... it all started from a picture.
 
+And ends with a question - do machines have character? humour?
+
 <img width="679" height="664" alt="image" src="https://github.com/user-attachments/assets/62e3c965-3171-4fbf-9e1e-080e8faf5be5" />
 
 ---
