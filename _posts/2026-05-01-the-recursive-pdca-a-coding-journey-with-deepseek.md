@@ -26,6 +26,10 @@ but here in PLAN stage we also have a mini plan do check act -> workfolder(prepa
 ```
 
 
+The Chat:
+https://chat.deepseek.com/share/4vxj30k7xwhow3ijyi
+
+
 
 ## Here is the complete conversation from that point onward, formatted as a single response:
 
