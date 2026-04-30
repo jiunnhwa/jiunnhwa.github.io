@@ -24,6 +24,9 @@ And ends with a question - do machines have character? humour? or even more? Dee
 
 **Some interesting conversational pieces - Do machines eat tables?**
 
+You can find the conversation here:
+https://chat.deepseek.com/share/4vxj30k7xwhow3ijyi
+
 <img width="813" height="317" alt="image" src="https://github.com/user-attachments/assets/88729557-de88-42b2-8307-8200811be5cc" />
 
 ---
@@ -50,8 +53,7 @@ but here in PLAN stage we also have a mini plan do check act -> workfolder(prepa
 ```
 
 
-The Chat:
-https://chat.deepseek.com/share/4vxj30k7xwhow3ijyi
+
 
 ## I began with the end in mind, and in the end it was beautiful.
 in the below the referenced 'You' is me.
