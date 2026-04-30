@@ -14,11 +14,23 @@ author: "Chan Jiunn Hwa"
 
 It was a dark night on May Day where this story began, aiyoyo, since when nights are not dark ...
 
-It started with this diagram I had ...
+In the beginning, there was this diagram I had ... it all started from a picture.
 
 <img width="679" height="664" alt="image" src="https://github.com/user-attachments/assets/62e3c965-3171-4fbf-9e1e-080e8faf5be5" />
 
-and a wrap-up prompt
+Some interesting conversational pieces:
+```
+**Do machines eat tables?**
+<img width="813" height="317" alt="image" src="https://github.com/user-attachments/assets/88729557-de88-42b2-8307-8200811be5cc" />
+<img width="716" height="691" alt="image" src="https://github.com/user-attachments/assets/d62a5123-0efe-4fb1-b872-ddb66977a0cd" />
+<img width="640" height="711" alt="image" src="https://github.com/user-attachments/assets/2ec2aed6-39ed-4986-820e-c263f9f7cfd0" />
+<img width="618" height="731" alt="image" src="https://github.com/user-attachments/assets/27858024-d3b7-48f5-8f77-433e38ac2982" />
+
+```
+
+
+and finally a wrap-up prompt
+
 ```
 more effort was spent here, because it will be the same pattern i will apply to the other stage... 
 in fact we have the big PLAN, DO, CHECK, ACT...
