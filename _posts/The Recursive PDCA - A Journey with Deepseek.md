@@ -1,5 +1,5 @@
 
-## Building A Pipeline
+## Building A Fractal Pipeline - A Man-Machine Story
 
 It started with this diagram I had ...
 
