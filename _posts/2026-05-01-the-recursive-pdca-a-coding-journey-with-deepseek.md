@@ -16,15 +16,14 @@ It was a dark night on May Day where this story began, aiyoyo, since when nights
 
 In the beginning, there was this diagram I had ... it all started from a picture.
 
-And ends with a question - do machines have character? humour?
-
 <img width="679" height="664" alt="image" src="https://github.com/user-attachments/assets/62e3c965-3171-4fbf-9e1e-080e8faf5be5" />
+
+And ends with a question - do machines have character? humour? or even more? Deepseek says it will read this post... so i should not be asking - is it alive? 😉
 
 ---
 
-Some interesting conversational pieces:
+**Some interesting conversational pieces - Do machines eat tables?**
 
-**Do machines eat tables?**
 <img width="813" height="317" alt="image" src="https://github.com/user-attachments/assets/88729557-de88-42b2-8307-8200811be5cc" />
 
 ---
