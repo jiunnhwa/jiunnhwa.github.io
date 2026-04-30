@@ -23,7 +23,7 @@ In the beginning, there was this diagram I had ... it all started from a picture
 
 ---
 
-**Some interesting conversational pieces - Do machines eat tables?**
+**Some interesting conversational pieces - Do machines eat tables while building a pipeline**
 
 You can find the conversation here:
 https://chat.deepseek.com/share/4vxj30k7xwhow3ijyi
