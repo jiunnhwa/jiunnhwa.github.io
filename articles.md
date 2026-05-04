@@ -17,7 +17,18 @@ permalink: /articles/
 
         <article class="article-item">
             <h2 class="article-title">
-                <a href="https://e27.co/looking-back-to-look-forward-solving-the-trust-layer-across-the-digital-economy-20260418/" target="_blank">Looking back to look forward: Solving the trust layer across the digital economy | e27</a>
+                <a href="https://e27.co/the-rise-of-ai-agents-in-healthcare-designing-man-machine-systems-20260418/" target="_blank">The rise of AI agents in healthcare: Designing man-machine systems</a>
+            </h2>
+            <div class="article-meta">📅 04 May 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+                Most AI discussions focus on models. But in healthcare, impact comes from systems. The Clinical Agent Stack reframes AI as a coordinated, multi-layer system where humans and machines work together.
+            </div>
+            <a href="https://e27.co/looking-back-to-look-forward-solving-the-trust-layer-across-the-digital-economy-20260418/" class="read-article" target="_blank">Read on e27 →</a>
+        </article>
+
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/looking-back-to-look-forward-solving-the-trust-layer-across-the-digital-economy-20260418/" target="_blank">Looking back to look forward: Solving the trust layer across the digital economy</a>
             </h2>
             <div class="article-meta">📅 18 April 2026 | 📍 e27</div>
             <div class="article-excerpt">
@@ -39,7 +50,7 @@ permalink: /articles/
         
         <article class="article-item">
             <h2 class="article-title">
-                <a href="https://e27.co/from-shell-to-startups-why-scenario-planning-matters-in-a-volatile-times-20260406/" target="_blank">From shell to startups: Why scenario planning matters in volatile times | e27</a>
+                <a href="https://e27.co/from-shell-to-startups-why-scenario-planning-matters-in-a-volatile-times-20260406/" target="_blank">From shell to startups: Why scenario planning matters in volatile times</a>
             </h2>
             <div class="article-meta">📅 6 April 2026 | 📍 e27</div>
             <div class="article-excerpt">
@@ -50,7 +61,7 @@ permalink: /articles/
 
         <article class="article-item">
             <h2 class="article-title">
-                <a href="https://e27.co/from-conflict-to-compute-how-war-oil-and-energy-will-reshape-the-future-of-startups-20260324/" target="_blank">From conflict to compute: How war, oil, and energy will reshape the future of startups | e27</a>
+                <a href="https://e27.co/from-conflict-to-compute-how-war-oil-and-energy-will-reshape-the-future-of-startups-20260324/" target="_blank">From conflict to compute: How war, oil, and energy will reshape the future of startups</a>
             </h2>
             <div class="article-meta">📅 24 March 2026 | 📍 e27</div>
             <div class="article-excerpt">
