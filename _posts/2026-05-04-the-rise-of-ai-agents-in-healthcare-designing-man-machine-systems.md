@@ -11,7 +11,7 @@ author: "Chan Jiunn Hwa"
 
 # The rise of AI agents in healthcare: Designing man-machine systems.
 
-Most people think AI in healthcare is about replacing doctors.
+Most people think AI in healthcare is about replacing doctors - that will be too narrow and missing the point.
 
 It’s not.
 
