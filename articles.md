@@ -14,6 +14,7 @@ permalink: /articles/
         <!-- All articles go here. The first 5 will show, rest hidden -->
         <!-- Add NEW articles at the TOP of this list -->
 
+<!-- *************************** -->
 
         <article class="article-item">
             <h2 class="article-title">
@@ -23,8 +24,10 @@ permalink: /articles/
             <div class="article-excerpt">
                 Most AI discussions focus on models. But in healthcare, impact comes from systems. The Clinical Agent Stack reframes AI as a coordinated, multi-layer system where humans and machines work together.
             </div>
-            <a href="https://e27.co/looking-back-to-look-forward-solving-the-trust-layer-across-the-digital-economy-20260418/" class="read-article" target="_blank">Read on e27 →</a>
+            <a href="https://e27.co/the-rise-of-ai-agents-in-healthcare-designing-man-machine-systems-20260418/" class="read-article" target="_blank">Read on e27 →</a>
         </article>
+
+<!-- *************************** -->
 
         <article class="article-item">
             <h2 class="article-title">
