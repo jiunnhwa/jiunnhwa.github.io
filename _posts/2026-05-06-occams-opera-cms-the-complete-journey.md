@@ -96,6 +96,10 @@ Every stage follows the same rhythm:
 └─────────────────────────────────────────────────────────────┘
 ```
 
+## Detailed Diagram
+<img width="738" height="811" alt="Refined System Diagram" src="https://github.com/user-attachments/assets/fda534a5-b727-4990-a3e5-5fa79e9b1348" />
+
+
 ### The Token System
 
 Each step creates a `.ok` file when complete:
