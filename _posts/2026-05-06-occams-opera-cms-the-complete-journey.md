@@ -2,8 +2,8 @@
 title: "Occam's Opera CMS: The Complete Journey"
 subtitle: "It began with a simple request: 'Convert markdown to JSON'. It grew into a SSR and finally a headless file CMS. All in less than a month."
 date: 2025-05-06 00:00:00 +0800
-categories: [AI, CMS, Architecture]
-tags: [PDCA, Occam's Razor, Fractal Principles, Chinese Opera 变脸, Python, Javascript]
+categories: [AI, CMS, Architecture,Agile]
+tags: [PDCA, Occam's Razor, Fractal Principles, Chinese Opera 变脸, Python, Javascript, CSS, Sprint]
 excerpt: "It started with a simple request: 'Convert markdown to JSON.' Innocent enough. Until it wasn't...Thus began the journey of Occam's Opera CMS — not with a grand architectural vision, but with a parser that needed a smaller stomach and a better diet."
 layout: post
 author: "Chan Jiunn Hwa"
