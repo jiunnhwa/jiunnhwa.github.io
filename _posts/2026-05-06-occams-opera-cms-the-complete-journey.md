@@ -1,6 +1,6 @@
 ---
 title: "Occam's Opera CMS: The Complete Journey"
-subtitle: "It began with a simple request: "Convert markdown to JSON. It grew into a SSR and finally a headless file CMS. All in less than a month."
+subtitle: "It began with a simple request: 'Convert markdown to JSON'. It grew into a SSR and finally a headless file CMS. All in less than a month."
 date: 2025-05-06 00:00:00 +0800
 categories: [AI, CMS, Architecture]
 tags: [PDCA, Occam's Razor, Fractal Principles, Chinese Opera 变脸, Python, Javascript]
