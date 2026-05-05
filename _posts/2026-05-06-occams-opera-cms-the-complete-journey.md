@@ -208,9 +208,9 @@ seo_content.py
 
 ```toml
 [notifications.email]
-smtp_server = "smtp.gmail.com"
-username = "alerts@homeloanexpert.sg"
-to_emails = ["admin@homeloanexpert.sg"]
+smtp_server = "smtp.mail.com"
+username = "alerts@***expert.sg"
+to_emails = ["admin@***expert.sg"]
 ```
 
 ### HTML Minification
