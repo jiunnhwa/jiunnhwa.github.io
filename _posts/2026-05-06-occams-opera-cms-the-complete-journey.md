@@ -4,7 +4,7 @@ subtitle: "It began with a simple request: "Convert markdown to JSON. It grew in
 date: 2025-05-06 00:00:00 +0800
 categories: [AI, CMS, Architecture]
 tags: [PDCA, Occam's Razor, Fractal Principles, Chinese Opera 变脸, Python, Javascript]
-excerpt: "It started with a simple request: "Convert markdown to JSON." Innocent enough. Until it wasn't...Thus began the journey of Occam's Opera CMS — not with a grand architectural vision, but with a parser that needed a smaller stomach and a better diet."
+excerpt: "It started with a simple request: 'Convert markdown to JSON.' Innocent enough. Until it wasn't...Thus began the journey of Occam's Opera CMS — not with a grand architectural vision, but with a parser that needed a smaller stomach and a better diet."
 layout: post
 author: "Chan Jiunn Hwa"
 ---
