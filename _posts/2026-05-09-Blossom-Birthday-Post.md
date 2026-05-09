@@ -16,7 +16,7 @@ author: "Chan Jiunn Hwa"
 > 
 > By session five, that single line had splintered into thousands of messages, half-formed ideas, and repeated clarifications. I wasn’t just building software—I was drowning in unstructured conversation. Then it hit me: if I’m co-developing the product *and* the process simultaneously, why am I still speaking in paragraphs when I could speak in structure?
 > 
-> That’s how **Blossom Specs ML** emerged. Not from a formal spec template. Not from a language design textbook. But from the messy, iterative reality of AI-assisted development—and the quiet realization that the best tool for thinking is a language built for it.
+> That’s how building without **Blossom Specs ML** could look like. Let's face it AI-assisted development can be a messy, iterative reality that can generate more tangent options at great speed than you can handle.
 
 ---
 
