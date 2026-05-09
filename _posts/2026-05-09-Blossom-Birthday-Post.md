@@ -354,19 +354,18 @@ Building Blossom was a partnership. The AI handled execution. I handled directio
 - **Rapid Prototyping:** `"Add a graph view"` → working minimal version in minutes. Speed matters when exploring.  
 - **Memory Retention:** Tracked variable names, CSS conventions, and function signatures across sessions. Saved hours of hunting.  
 
-
+  
 ### What AI Struggled With  
 - **The Hallucination Tax:** Invented APIs, referenced removed functions, confidently outputted broken logic.
 - **Context Limits:** After ~100k tokens, early decisions vanished. Required constant re-anchoring.
 - **Scope Creep Enabler:** Every `"can we add X?"` seemed reasonable. The AI doesn't say no to complexity.
-
+   
 
 ### The Human's Job  
 Knowing when to stop adding features was harder than saying yes to bad ones. Every feature adds maintenance burden and cognitive load. The spec became the boundary. It forced discipline. It preserved architecture.
 
 
 ## Why This Matters for Teams & Open Source
-
 Blossom isn't built for enterprises. But its principles scale beautifully to collaboration:
 
 | Benefit | Impact |
