@@ -159,7 +159,7 @@ I estimate the following improvements to productivity, speed and quality if the 
 
 Here's what changes when you shift from reactive chat-building to structured specification:
 
-### Sessions to MVP
+### Sessions to MVP  
 | Metric | Without Spec | With Spec | Improvement |
 |--------|--------------|-----------|-------------|
 | Features per session | 1.2 | 2.0 | +67% |
@@ -177,7 +177,8 @@ The biggest cost wasn't building features. It was **rebuilding them**.
 | Graph | 1.5 sessions (layout redone → drag detection fixed) | 0.5 session | -67% |
 | Theme system | 1 session | 0.5 session | -50% |
 
-### Quality & Communication
+### Quality & Communication  
+
 | Aspect | Without Spec | With Spec |  
 |--------|--------------|-----------|  
 | Clarification questions per feature | 5–10 | 1–2 |  
