@@ -696,6 +696,56 @@ The spec doesn't replace the prompt. It **amplifies** it.
 
 ---
 
+## Appendix: Blossom DSL(v0.1)
 
+------------------
 
+At its core, Blossom is built from a few primitives:
 
+-   **Nodes**
+-   **Properties**
+-   **Lists**
+-   **Inline structures**
+
+Here's a simple example:
+
+```
+UIComponent[  Name: TopToolBar  Layout: [[Logo, LogoText], [Spacer], [Actions]]  Actions: [DarkLight, Focus, Import, Export{md,html,pdf}]]
+```
+
+This expresses:
+
+-   Hierarchy
+-   Layout
+-   Behavior
+-   Relationships
+
+Without requiring a single sentence of explanation.
+What was once described verbally is now immediately visible:
+Left: identity (Logo)
+Center: spacing
+Right: actions
+
+Blossom captures this directly.
+
+---
+
+Formalizing the Language --- EBNF
+-------------------------------
+
+At some point, it became clear:
+
+> If this is a language, it should be treated like one.
+
+So Blossom was formalized using EBNF:
+
+```
+Program        = Node ;Node           = Identifier "[" Elements? "]" ;Elements       = Element ("," Element)* ;Element        = Node | Property ;Property       = Identifier ":" Value ;Value          = Identifier | String | List | Inline ;List           = "[" Elements? "]" ;Inline         = Identifier "{" Elements? "}" ;Identifier     = letter (letter | digit)* ;String         = '"' .* '"' ;
+```
+
+This makes Blossom:
+-   Parsable
+-   Extensible
+-   "Real" as a DSL
+
+---
