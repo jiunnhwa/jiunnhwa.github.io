@@ -436,7 +436,7 @@ Let a thousand notes bloom — but this time, with some structure. 🌸
 
 ---
 
-## Appendix: Comparing Blossom Specs ML to Prompt Engineering as a Methodology
+## Appendix A: Comparing Blossom Specs ML to Prompt Engineering as a Methodology
 
 
 **Blossom Specs ML vs Prompt Engineering** - The Fundamental Difference
@@ -696,7 +696,7 @@ The spec doesn't replace the prompt. It **amplifies** it.
 
 ---
 
-## Appendix: Blossom DSL(v0.1)
+## Appendix B: Blossom DSL(v0.1)
 
 ------------------
 
@@ -721,10 +721,11 @@ This expresses:
 -   Relationships
 
 Without requiring a single sentence of explanation.
-What was once described verbally is now immediately visible:
-Left: identity (Logo)
-Center: spacing
-Right: actions
+
+What was once described verbally is now immediately visible:  
+Left: identity (Logo)  
+Center: spacing  
+Right: actions  
 
 Blossom captures this directly.
 
@@ -740,7 +741,16 @@ At some point, it became clear:
 So Blossom was formalized using EBNF:
 
 ```
-Program        = Node ;Node           = Identifier "[" Elements? "]" ;Elements       = Element ("," Element)* ;Element        = Node | Property ;Property       = Identifier ":" Value ;Value          = Identifier | String | List | Inline ;List           = "[" Elements? "]" ;Inline         = Identifier "{" Elements? "}" ;Identifier     = letter (letter | digit)* ;String         = '"' .* '"' ;
+Program        = Node ;
+Node           = Identifier "[" Elements? "]" ;
+Elements       = Element ("," Element)* ;
+Element        = Node | Property ;
+Property       = Identifier ":" Value ;
+Value          = Identifier | String | List | Inline ;
+List           = "[" Elements? "]" ;
+Inline         = Identifier "{" Elements? "}" ;
+Identifier     = letter (letter | digit)* ;
+String         = '"' .* '"' ;
 ```
 
 This makes Blossom:
