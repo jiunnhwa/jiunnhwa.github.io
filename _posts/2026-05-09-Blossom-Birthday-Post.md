@@ -411,14 +411,18 @@ No external tools. No Jira syncs. Just `spec.md` in your repo, diffing cleanly w
 
 ## Closing: Let a Thousand Notes Bloom
 
-During development, I renamed `LocalMark Studio` to **Blossom**. The old name was functional. The new one is intentional.
-Software is saturated with `"Mark"`, `"Note"`, `"Pad"`, and `"Studio"`. I wanted something that evokes growth, unfolding ideas, and organic structure. The tagline wrote itself:
-
+When the idea of Blossom bloomed as I was closing the current MVP stages, I decided to commemorate the occasion by renaming `LocalMark Studio` to **Blossom**. The old name was functional. The new one is as intentional and resonant as it is `zen-like`. The tagline wrote itself:
+>
 > 🌸 **"Let a thousand notes bloom."**
+>
 
-Blossom Specs ML is not a programming language. It's not a framework. It's a **language for structured thinking**. It surfaces ideas into mental models that both humans and AI can understand, share, and build upon.
+Blossom Specs ML is not a programming language. It's not a framework. It's a **language for imbuing structur into open thinking**. It surfaces ideas into mental models that both humans and AI can understand, share, and build upon.
 
 In early sessions, I described features in natural language. The AI understood. Mostly. Sometimes it added buttons to the wrong toolbar. Sometimes it used the wrong icon. As the product grew, I needed a way to specify exactly what I wanted without writing ten-paragraph essays.
+
+Prompt Engineering methods like RICE does not usually work if one is path-finding into previously unknown features. Being rigid and too overly structured from the start already constrains the outcome. For instance, you cannot give a specific example if the context and content is vague.
+
+More importantly, interfacing to AI really means 'speaking in a tongue' that both Man and Machine can understand - and this is what Blossom can help.
 
 The solution emerged organically:
 ```
@@ -431,7 +435,7 @@ TopToolBar[
 
 It's not Turing complete. It's not supposed to be. It's a spec, not a program. It has a root. Branches. Leaves. Attributes. Status markers. You can nest arbitrarily deep. You can move nodes without losing context. You can commit it, diff it, and share it.
 
-AI didn't build Blossom on its own. I didn't build Blossom alone. We built it together, session by session, conversation by conversation, over a few nights. 
+**AI didn't build Blossom on its own. I didn't build Blossom alone. We built it together, session by session, conversation by conversation, over a few nights.**
 
 Let a thousand notes bloom — but this time, with some structure. 🌸
 
