@@ -738,7 +738,7 @@ At some point, it became clear:
 
 > If this is a language, it should be treated like one.
 
-So Blossom was formalized using EBNF:
+Blossom formalized using EBNF:
 
 ```
 Program        = Node ;
