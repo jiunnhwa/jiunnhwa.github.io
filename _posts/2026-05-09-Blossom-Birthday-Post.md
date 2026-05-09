@@ -151,6 +151,33 @@ This single structure captures:
 
 The notation scales from simple descriptions to complex systems while remaining readable at a glance. No JSON nesting hell. No YAML indentation guesswork. Just trees, attributes, and status markers (`✅ 🚧 💡 🐛`).
 
+## Alternate Way Of Specifying a Product
+Another user from another lens, could have specified it this way - both are valid.
+
+```
+App[
+  Name: Yaak
+
+  Modules[
+    RequestBuilder[
+      Methods: [GET, POST, PUT, DELETE]
+      BodyTypes: [JSON, FormData, Raw]
+    ]
+
+    ResponseViewer[
+      Views: [Pretty, Raw, Headers]
+    ]
+
+    Collections[
+      Structure: Tree
+    ]
+  ]
+]
+```
+
+---
+
+
 ## The Impact To Productivity, Quality, Efficiency and Speed: Metrics That Matter
 
 Writing specs takes time. Estimated overhead: **15–20%**. But this overhead pays for itself within three sessions. 
