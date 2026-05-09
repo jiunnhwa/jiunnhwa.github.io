@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "Blossom — A Language for Structured Thinking"
-date: 2026-05-09
+subtitle: "It began with a simple request: 'This is a single file vanilla JS PWA markdown editor. Analyze for bug."
+date: 2025-05-09 00:00:00 +0800
 categories: [Development, Methodology, AI, DSL]
 tags: [Specs-ML, Blossom, AI-Collaboration, Productivity, Markdown, Spec-Driven-Development]
-description: "How iterative AI development birthed a lightweight DSL for product specification, and why structured thinking is the missing layer between notes and code."
+excerpt: "How iterative AI development birthed a lightweight DSL for product specification, and why structured thinking is the missing layer between notes and code."
+layout: post
+author: "Chan Jiunn Hwa"
 ---
 
 > *It began with a vague request in a chat window: “Make it look nicer.”*  
