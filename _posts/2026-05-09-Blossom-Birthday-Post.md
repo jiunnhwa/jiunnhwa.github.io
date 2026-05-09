@@ -6,7 +6,6 @@ date: 2025-05-09 00:00:00 +0800
 categories: [Development, Methodology, AI, DSL]
 tags: [Specs-ML, Blossom, AI-Collaboration, Productivity, Markdown, Spec-Driven-Development]
 excerpt: "How iterative AI development birthed a lightweight DSL for product specification, and why structured thinking is the missing layer between notes and code."
-layout: post
 author: "Chan Jiunn Hwa"
 ---
 # Blossom — A Language for Structured Thinking
