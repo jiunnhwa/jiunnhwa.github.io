@@ -55,7 +55,9 @@ The above is over-dramatised, but many have these traumas:
 - Decisions vanished into chat history
 - Every "fix" created two new edge cases
 
-Blossom wasn't planned. It was inevitable.
+By now all vibe coders would also have discovered codes confidently produced by AI can have bugs as well.
+
+Blossom wasn't planned to be. It is inevitable that I would have innovated it - to allow proper channeling of its powers.
 
 ## The Evolution: From Chat Logs to Structured Trees
 
