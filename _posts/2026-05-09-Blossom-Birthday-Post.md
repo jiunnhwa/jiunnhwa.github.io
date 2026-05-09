@@ -266,12 +266,13 @@ Net Improvement Summary
 
 The Compounding Effect
 ----------------------
-
+```
 The real benefit compounds over time:
 Session 1-3:  Small difference (spec writing overhead)
 Session 4-6:  Gap widens (less rework)
 Session 7-10: Gap doubles (accumulated savings)
 Session 10+:  Exponential (architectural consistency)
+```
 
 By Session 10, the Spec-driven approach would be 2-3x more productive.
 
