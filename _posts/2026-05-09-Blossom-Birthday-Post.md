@@ -160,12 +160,14 @@ I estimate the following improvements to productivity, speed and quality if the 
 Here's what changes when you shift from reactive chat-building to structured specification:
 
 ### Sessions to MVP  
+
 | Metric | Without Spec | With Spec | Improvement |
 |--------|--------------|-----------|-------------|
 | Features per session | 1.2 | 2.0 | +67% |
 | Sessions to MVP | 10 | 6 | -40% |
 | Rework sessions | 4 | 0.5 | -87% |
 | Bug fix sessions | 2 | 1 | -50% |
+
 
 ### The Rework Tax
 The biggest cost wasn't building features. It was **rebuilding them**.
@@ -187,6 +189,7 @@ The biggest cost wasn't building features. It was **rebuilding them**.
 | New developer ramp-up | 2–3 sessions | ~30 minutes |  
 | Forgotten decisions | Frequent | Documented |  
 
+
 ### Architectural Quality
 
 | Metric | Without Spec | With Spec |
@@ -196,6 +199,7 @@ The biggest cost wasn't building features. It was **rebuilding them**.
 | Mode management | Scattered | Centralized |
 | Property naming | Inconsistent | Standardized |
 
+
 ### Knowledge Transfer
 
 | Aspect | Without Spec | With Spec |
@@ -204,6 +208,7 @@ The biggest cost wasn't building features. It was **rebuilding them**.
 | "What does this do?" | Dig through code | Read the spec |
 | Forgotten decisions | Frequent | Documented |
 | Session recap needed | Every time | Rare |
+
 
 The Real Savings: Rework
 ------------------------
