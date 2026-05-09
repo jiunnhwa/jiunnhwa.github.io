@@ -206,9 +206,7 @@ The Real Savings: Rework
 ------------------------
 
 The biggest cost wasn't building features. It was rebuilding them.
-
-text
-
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    REWORK TAX - WITHOUT SPEC                                │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -230,6 +228,7 @@ text
 │   Total Rework: ~4 sessions                                                 │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
 
 With Spec, these would not have necessarily been built correctly the first time, but improvements will pay dividends over time.
 
