@@ -9,6 +9,8 @@ excerpt: "How iterative AI development birthed a lightweight DSL for product spe
 layout: post
 author: "Chan Jiunn Hwa"
 ---
+# Blossom — A Language for Structured Thinking
+
 
 > *It began with a vague request in a chat window: “Make it look nicer.”*  
 > By session five, that single line had splintered into thousands of messages, half-formed ideas, and repeated clarifications. I wasn’t just building software—I was drowning in unstructured conversation. Then it hit me: if I’m co-developing the product *and* the process simultaneously, why am I still speaking in paragraphs when I could speak in structure?  
