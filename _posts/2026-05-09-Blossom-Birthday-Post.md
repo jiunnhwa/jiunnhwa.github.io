@@ -49,7 +49,7 @@ _ps: my solutioning usually takes a breadth first, then depth approach - hence d
 
 By Session 3, natural language had fractured under complexity. I was repeating clarifications, losing context across AI sessions, and paying a hidden "rework tax" every time a vague prompt resulted in misaligned code. 
 
-The above is over-dramatised, but many have these traumas:
+The above is over-dramatised, but I am sure many have encountered these traumas:
 - Ambiguity bred scope creep
 - Context windows filled, then forgot
 - Decisions vanished into chat history
