@@ -117,6 +117,8 @@ Let's use a real-world application **Yaak REST API Client** to construct a speci
 <img width="700" height="400" alt="Yaak API Client" src="https://github.com/user-attachments/assets/60a160f6-0ea7-43dc-adb5-b5da311836f4" />
 
 ```
+
+
 Yaak[
     type: API_Client,
     platform: desktop,
@@ -288,7 +290,7 @@ What We Would Have Done Differently
 
 Final Verdict
 -------------
-
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
 │   If we had started with Blossom Specs ML:                                 │
@@ -303,6 +305,7 @@ Final Verdict
 │   After that, it's pure compounding efficiency.                            │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
 
 But the more important insight: We didn't know what to specify until we built it.
 
@@ -339,25 +342,25 @@ Struggles with: Large enterprises, fixed-contract work, regulatory compliance, f
 
 Building Blossom was a partnership. The AI handled execution. I handled direction. Here's what that taught me:
 
-### What AI Did Well
+### What AI Did Well  
 - **Pattern Recognition:** Noticed Kanban, Calendar, and Graph all needed full-width layouts. Suggested the overlay pattern before I asked.  
 - **Rapid Prototyping:** `"Add a graph view"` → working minimal version in minutes. Speed matters when exploring.  
 - **Memory Retention:** Tracked variable names, CSS conventions, and function signatures across sessions. Saved hours of hunting.  
 
 
-### What AI Struggled With
+### What AI Struggled With  
 - **The Hallucination Tax:** Invented APIs, referenced removed functions, confidently outputted broken logic.
 - **Context Limits:** After ~100k tokens, early decisions vanished. Required constant re-anchoring.
 - **Scope Creep Enabler:** Every `"can we add X?"` seemed reasonable. The AI doesn't say no to complexity.
 
 
-### The Human's Job
+### The Human's Job  
 Knowing when to stop adding features was harder than saying yes to bad ones. Every feature adds maintenance burden and cognitive load. The spec became the boundary. It forced discipline. It preserved architecture.
 
 
 ## Why This Matters for Teams & Open Source
 
-Blossom wasn't built for enterprises. But its principles scale beautifully to collaboration:
+Blossom isn't built for enterprises. But its principles scale beautifully to collaboration:
 
 | Benefit | Impact |
 |---------|--------|
@@ -369,12 +372,12 @@ Blossom wasn't built for enterprises. But its principles scale beautifully to co
 
 > *A spec that exists is infinitely better than a perfect spec that doesn’t.*
 
-It transforms specification from a bureaucratic artifact into a **living, version-controlled blueprint** that evolves alongside your codebase. No external tools. No Jira syncs. Just `spec.md` in your repo, diffing cleanly with every commit.
+It transforms specification from a bureaucratic artifact into a **living, version-controlled blueprint** that evolves alongside your codebase. 
+No external tools. No Jira syncs. Just `spec.md` in your repo, diffing cleanly with every commit.
 
-## 9. Closing: Let a Thousand Notes Bloom
+## Closing: Let a Thousand Notes Bloom
 
 During development, I renamed `LocalMark Studio` to **Blossom**. The old name was functional. The new one is intentional.
-
 Software is saturated with `"Mark"`, `"Note"`, `"Pad"`, and `"Studio"`. I wanted something that evokes growth, unfolding ideas, and organic structure. The tagline wrote itself:
 
 > 🌸 **"Let a thousand notes bloom."**
