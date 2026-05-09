@@ -418,7 +418,7 @@ When the idea of Blossom bloomed as I was closing the current MVP stages, I deci
 > 🌸 **"Let a thousand notes bloom."**
 >
 
-Blossom Specs ML is not a programming language. It's not a framework. It's a **language for imbuing structur into open thinking**. It surfaces ideas into mental models that both humans and AI can understand, share, and build upon.
+Blossom Specs ML is not a programming language. It's not a framework. It's a **language for imbuing structure into open thinking**. It surfaces ideas into mental models that both humans and AI can understand, share, and build upon.
 
 In early sessions, I described features in natural language. The AI understood. Mostly. Sometimes it added buttons to the wrong toolbar. Sometimes it used the wrong icon. As the product grew, I needed a way to specify exactly what I wanted without writing ten-paragraph essays.
 
