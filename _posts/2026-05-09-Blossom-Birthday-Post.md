@@ -40,7 +40,8 @@ Session 3: "TopToolBar[[Logo, LogoText], [<empty>], [DarkLight, Focus, Import, E
 
 As part of my development philosophy, I’ve always believed in improving both the **product** and the **process** in parallel. Most developers focus on shipping features. I focus on shipping features *while* refining how I build them.
 
-When I started building what was then called `LocalMark Studio` (now **Blossom**), my workflow looked like this:
+When I started building what was then called `LocalMark Studio` (now **Blossom**), my usual dialetical conversations with AI(aka workflow) looked like this(over-simplfied, but sometimes so):
+ps: my solutioning usually takes a breadth first, then depth - hence discovery through open-ended questioning at the start.
 
 - **Session 1:** `"Add a button to the toolbar"`
 - **Session 2:** `"Add a dark mode toggle"`
