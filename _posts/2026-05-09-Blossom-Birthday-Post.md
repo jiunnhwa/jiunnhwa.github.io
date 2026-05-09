@@ -436,11 +436,10 @@ Let a thousand notes bloom — but this time, with some structure. 🌸
 
 ---
 
-Appendix: Comparing Blossom Specs ML to Prompt Engineering as a Methodology
+## Appendix: Comparing Blossom Specs ML to Prompt Engineering as a Methodology
 
-# Blossom Specs ML vs Prompt Engineering
 
-## The Fundamental Difference
+**Blossom Specs ML vs Prompt Engineering** - The Fundamental Difference
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
