@@ -50,13 +50,12 @@ We will.
 I explore this idea in my latest piece:  
 “Will The Rise Of AI Mean The ‘Termination’ Of Humankind?”  
 
-
-#AI #AIAgents #FutureOfWork #Startups #Technology #Innovation#Society
+<p>#AI #AIAgents #FutureOfWork #Startups #Technology #Innovation#Society</p>
                 
 
         
             </div>
-            <a href="https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-7460562027535601664-v2e7" class="read-article" target="_blank">read short post on linkedin →</a>
+            <a href="https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-7460562027535601664-v2e7" class="read-article" target="_blank">read short post on linkedin →</a><br>
             <a href="https://e27.co/will-the-rise-of-ai-mean-the-termination-of-humankind-20260418/" class="read-article" target="_blank">original article on e27 →</a>
         </article>
 
