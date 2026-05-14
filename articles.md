@@ -29,7 +29,7 @@ https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-746056202
             </h2>
             <div class="article-meta">📅 12 May 2026 | 📍 e27</div>
             <div class="article-excerpt">
-```
+
 Most discussions about AI still revolve around one question:
 Will AI replace us?
 
@@ -53,9 +53,9 @@ I explore this idea in my latest piece:
 
 #AI #AIAgents #FutureOfWork #Startups #Technology #Innovation
 #Society
-                ```
+                
 
-        </article>
+        
             </div>
             [Read short post on linkedin →](https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-7460562027535601664-v2e7)</a>   
             <a href="https://e27.co/will-the-rise-of-ai-mean-the-termination-of-humankind-20260418/" class="read-article" target="_blank">original article on e27 →</a>
