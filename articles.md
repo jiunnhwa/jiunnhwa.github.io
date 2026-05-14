@@ -3,6 +3,12 @@ layout: default
 title: "Articles"
 permalink: /articles/
 ---
+<!-- ====================================================== -->
+
+https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-7460562027535601664-v2e7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACrBhbwBeX55w_w3Sldo5WU_szS0qSLACBs
+
+
+
 
 <div class="articles">
     <header class="articles-header">
@@ -13,8 +19,49 @@ permalink: /articles/
     <div class="articles-list" id="articles-list">
         <!-- All articles go here. The first 5 will show, rest hidden -->
         <!-- Add NEW articles at the TOP of this list -->
+        <!-- ************************************************* -->
 
-<!-- *************************** -->
+        <!-- ====================================================== -->
+        
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/will-the-rise-of-ai-mean-the-termination-of-humankind-20260418/" target="_blank">Will the rise of AI mean the ‘termination’ of humankind?</a>
+            </h2>
+            <div class="article-meta">📅 12 May 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+```
+Most discussions about AI still revolve around one question:
+Will AI replace us?
+
+In my latest article, I argue that the real question may not be whether AI shall terminate humankind in the way Hollywood imagined…
+
+But whether it will quietly terminate the systems and notions that define our concept of human value today.
+
+The rise of AI represents a tectonic shift—not just capable of rewriting workflows and industries, but possibly reshaping the socio-economic assumptions and sub-strata that they are built on.
+
+And that puts us at a fork in the road:
+→ One path leads to concentration—where AI-driven productivity is owned by the few, and the many become economically irrelevant.
+→ The other leads to distribution—where humanity, liberated from labour, unlocks new potential for creativity, learning, and purpose.
+
+The technology itself won’t decide which path we take.
+
+We will.
+
+I explore this idea in my latest piece:
+“Will The Rise Of AI Mean The ‘Termination’ Of Humankind?”
+
+
+#AI #AIAgents #FutureOfWork #Startups #Technology #Innovation
+#Society
+                ```
+
+        </article>
+            </div>
+            [Read short post on linkedin →](https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-7460562027535601664-v2e7)</a>   
+            <a href="https://e27.co/will-the-rise-of-ai-mean-the-termination-of-humankind-20260418/" class="read-article" target="_blank">original article on e27 →</a>
+        </article>
+
+        <!-- ====================================================== -->
 
         <article class="article-item">
             <h2 class="article-title">
