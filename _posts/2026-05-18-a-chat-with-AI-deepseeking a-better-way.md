@@ -198,7 +198,8 @@ And if something isn't working, don't just describe the bug. Ask:
 > *"How can I help?"*
 
 You might be surprised what happens next.
-
+---
+[Edited PDF for e27](../assets/pdf/file.pdf)
 ---
 
 *✿*
