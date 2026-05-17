@@ -1,13 +1,14 @@
----  
+---
 layout: post
 title: "A Chat With AI: DeepSeeking a Better Way"
-subtitle: "What happened when I asked DeepSeek "how can I help?" — and found a better way to build software together."
+subtitle: "It began with a simple request: 'This is a single file vanilla JS PWA markdown editor. Analyze for bug."
 date: 2025-05-18 00:00:00 +0800
-categories: [Development, Methodology, AI]
-tags: [AI-Collaboration, Systems Thinking, Pair Programming]
-excerpt: "How understanding AI's constraints can lead to better collaborative development. The winners won’t be the best prompters but those who can dance better with AI."
+categories: [Development, Methodology, AI, DSL]
+tags: [Specs-ML, Blossom, AI-Collaboration, Productivity, Markdown, Spec-Driven-Development]
+excerpt: "How iterative AI development birthed a lightweight DSL for product specification, and why structured thinking is the missing layer between notes and code."
 author: "Chan Jiunn Hwa"
----  
+---
+
 # A Chat With AI: DeepSeeking a Better Way
 
 *What happened when I asked DeepSeek "how can I help?" — and found a better way to build software together.*
