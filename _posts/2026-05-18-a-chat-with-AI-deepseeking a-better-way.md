@@ -200,6 +200,7 @@ And if something isn't working, don't just describe the bug. Ask:
 You might be surprised what happens next.
 ---
 [Edited PDF for e27](assets/pdf/AI Doesn’t Fail Because It’s Wrong — It Fails Because You Overload It.pdf)
+<a href="https://jiunnhwa.github.io/assets/pdf/AI%20Doesn%E2%80%99t%20Fail%20Because%20It%E2%80%99s%20Wrong%20%E2%80%94%20It%20Fails%20Because%20You%20Overload%20It.pdf" target="_blank">View PDF for e27 article</a>
 ---
 
 *✿*
