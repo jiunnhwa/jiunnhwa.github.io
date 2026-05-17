@@ -156,7 +156,7 @@ Maybe not. But maybe it should be.
 
 The AI has constraints. I have constraints. Working with them, not against them, is the only way to build something real.
 
-> *道可道, 非常道*
+> *道可道, 非常道*  
 > *The way that can be told is not the eternal way.*
 
 This is not the *only* way to collaborate with AI. It's just a way — a pattern we discovered together. A better way, for us, for this project.
