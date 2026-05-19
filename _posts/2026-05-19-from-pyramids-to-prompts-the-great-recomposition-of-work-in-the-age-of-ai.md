@@ -228,17 +228,17 @@ The only question is whether your organisation is built to collapse and recompos
 ## Post-Article-Analysis -  Core Mental Models
 
 Based on an analysis of your draft, you have intuitively built your arguments using three core mental models from economics, biology, and physics (pp. 2-3, 5):
-## 1. The S-Curve (Technology & Scale Dynamics)
+### 1. The S-Curve (Technology & Scale Dynamics)
 
 * How you used it: You applied this model to explain that the relationship between team size and technology is non-linear (p. 2). You note that after a certain threshold of AI capabilities, team sizes do not just shrink incrementally; the entire category collapses into a "team of one." (p. 2)
 * The Underlying Concept: In systems design, the S-curve represents slow initial progress, followed by rapid, exponential acceleration, before finally plateauing at a maturity threshold.
 
-## 2. Swarm Intelligence / Biomimicry (Organizational Behavior)
+### 2. Swarm Intelligence / Biomimicry (Organizational Behavior)
 
 * How you used it: You used this model to move away from rigid corporate hierarchies ("pyramids") toward "agentic nodes" and "swarms." (pp. 1-2, 4) You describe these teams as temporary, decentralized networks that assemble fluidly around a specific intent and dissolve when done (p. 4).
 * The Underlying Concept: Borrowed from biology (like ant colonies or flocks of birds), swarm intelligence describes how a collective of simple, decentralized agents can self-organize to solve complex global problems without a centralized manager.
 
-## 3. Structural Strain / Phase Transition (Physics & Sociology)
+### 3. Structural Strain / Phase Transition (Physics & Sociology)
 
 * How you used it: You used this model to describe the process of "Collapse and Recomposition." (p. 2) You argue that cheap, accessible execution places a high structural strain on traditional businesses, forcing them to break apart into smaller units before recombining into something new (p. 2).
 * The Underlying Concept: In thermodynamics, this is a phase transition (like ice melting into water when pressure or temperature changes). In sociology, Structural Strain Theory states that when an environment shifts rapidly, existing systems experience pressure and must deform or break to reach a new equilibrium (pp. 2-3).
@@ -250,21 +250,21 @@ Based on an analysis of your draft, you have intuitively built your arguments us
 Based on current debates among AI researchers, venture capitalists, and future-of-work theorists, your article sits directly at the intersection of three major ideological schisms. To make the piece unassailable, here are the three places where experts fundamentally disagree, along with the strongest argument for each side:
 
 ------------------------------
-## 1. The Decentralisation vs. Hyper-Centralisation Debate
+### 1. The Decentralisation vs. Hyper-Centralisation Debate
 Your article argues that AI will democratise execution, fragmenting industries into nimble, agile "swarms."
 
-* Side A (The Fragmented Swarm View): AI tools lower the barrier to entry, allowing solo operators to challenge massive corporations. Innovation will happen at the edge through modular, hyper-efficient agentic nodes.
+- **Side A** (The Fragmented Swarm View): AI tools lower the barrier to entry, allowing solo operators to challenge massive corporations. Innovation will happen at the edge through modular, hyper-efficient agentic nodes.
 * Strongest Argument: Zero Marginal Cost of Labor. When intelligence is an API call away, capital-heavy corporations lose their scale advantage over a single founder with high cognitive range.
-* Side B (The Sovereign Big Tech View): Frontier AI models require billions of dollars in compute, chips, and energy. Power will hyper-centralise into a few corporate "sovereigns" (e.g., Microsoft, Google, OpenAI, Meta) that control the infrastructure.
-* Strongest Argument: The Compute Moat. Small swarms will always be beholden to, taxed by, and easily sherlocked by the platforms holding the foundational models and data monopolies.
+- **Side B** (The Sovereign Big Tech View): Frontier AI models require billions of dollars in compute, chips, and energy. Power will hyper-centralise into a few corporate "sovereigns" (e.g., Microsoft, Google, OpenAI, Meta) that control the infrastructure.
+- Strongest Argument: The Compute Moat. Small swarms will always be beholden to, taxed by, and easily sherlocked by the platforms holding the foundational models and data monopolies.
 
 
-## 2. The Generalist "Orchestrator" vs. Deep "Specialist" Paradox
+### 2. The Generalist "Orchestrator" vs. Deep "Specialist" Paradox
 Your article states that human contribution is shifting upwards "from execution to judgment" and "from managing tasks to orchestrating systems."
 
-* Side A (The Rise of the Generalist): The highest leverage belongs to generalists with broad conceptual cross-disciplinary skills. AI handles the deep technical execution (coding, copywriting, legal analysis), leaving humans to act as curators and directors.
+- **Side A** (The Rise of the Generalist): The highest leverage belongs to generalists with broad conceptual cross-disciplinary skills. AI handles the deep technical execution (coding, copywriting, legal analysis), leaving humans to act as curators and directors.
 * Strongest Argument: The T-Shaped Employee Explodes. Software bridges the execution gap, making broad strategic thinking and taste far more valuable than narrow, repeatable technical execution.
-* Side B (The Death of the Shallow Generalist): If AI can easily orchestrate, generalist management is the first thing to be automated. True value will shift to hyper-specialists who understand deep, esoteric, or proprietary domains that AI cannot easily model.
+- **Side B** (The Death of the Shallow Generalist): If AI can easily orchestrate, generalist management is the first thing to be automated. True value will shift to hyper-specialists who understand deep, esoteric, or proprietary domains that AI cannot easily model.
 * Strongest Argument: Garbage In, Garbage Out. A generalist cannot effectively exercise "judgment" or audit an AI system if they do not deeply understand the underlying mechanics of the domain they are orchestrating.
 
   
@@ -272,9 +272,9 @@ Your article states that human contribution is shifting upwards "from execution 
 ## 3. The Liquidity vs. Institutional Memory Friction
 Your article envisions highly fluid talent networks—"temporary alignments of capability... dissolved when complete."
 
-* Side A (The Frictionless Talent Market): Linear, lifelong employment is an industrial relic. The future belongs to dynamic, project-based on-demand talent, maximizing resource allocation efficiency for businesses and freedom for workers.
+- **Side A** (The Frictionless Talent Market): Linear, lifelong employment is an industrial relic. The future belongs to dynamic, project-based on-demand talent, maximizing resource allocation efficiency for businesses and freedom for workers.
 * Strongest Argument: Perfect Market Equilibrium. Startups can spin up and scale down instantly without the toxic baggage of bloated payrolls and organizational inertia during market shifts.
-* Side B (The Institutional Decay Warning): Organizations are social systems, not just code repositories. Purely transactional, short-term swarms destroy institutional memory, trust, and psychological safety—the very ingredients required for long-term breakthrough innovation.
+- **Side B** (The Institutional Decay Warning): Organizations are social systems, not just code repositories. Purely transactional, short-term swarms destroy institutional memory, trust, and psychological safety—the very ingredients required for long-term breakthrough innovation.
 * Strongest Argument: The Ship of Theseus Problem. If the components of a team are constantly swapping out and dissolving, the company loses its cohesive cultural fabric, resulting in fragmented products and high onboarding friction.
 
   
