@@ -102,7 +102,7 @@ Teams become temporary alignments of capability—assembled for purpose, dissolv
 
 ---
 
-<img width="1664" height="928" alt="Pyramids To Swarms - The shift from fixed organisational structures to fluid configurations" src="https://github.com/user-attachments/assets/d3e37c2b-39d5-4fcc-9ffb-1349ceaf02d5" />
+<img width="688" height="369" alt="Pyramids To Swarms - The shift from fixed organisational structures to fluid configurations" src="https://github.com/user-attachments/assets/d3e37c2b-39d5-4fcc-9ffb-1349ceaf02d5" />
 
 ---
 
