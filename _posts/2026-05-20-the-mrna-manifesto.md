@@ -2,16 +2,8 @@
 title: "The MRNA Manifesto"
 subtitle: "Minimal Reactive Nucleus Architecture"
 description: "50 lines. Infinite worlds. A declaration of principles for the architecture that becomes any app."
-author:
-  name: "The Man with a Thousand and One Apps"
-  url: ""
-  email: ""
-date: 2025-05-20T00:00:00+08:00
-lastmod: 2025-05-20T00:00:00+08:00
-draft: false
-type: "manifesto"
-layout: "manifesto"
-
+author: "The Man with a Thousand and One Apps"
+date: 2025-05-20
 tags:
   - manifesto
   - architecture
@@ -19,47 +11,10 @@ tags:
   - mrna
   - minimalism
   - philosophy
-  - state-management
-  - reactive-programming
-
 categories:
   - architecture
   - manifesto
-  - philosophy
-
-keywords:
-  - "reactive architecture"
-  - "minimal framework"
-  - "state management"
-  - "atoms"
-  - "mrna"
-  - "manifesto"
-
-series:
-  - "MRNA Architecture"
-
-weight: 1
-
-# Open Graph / Social Media
-og_title: "The MRNA Manifesto"
-og_description: "50 lines. Infinite worlds. A declaration of principles for the architecture that becomes any app."
-og_image: "/images/mrna-manifesto-og.png"
-og_type: "article"
-
-# Twitter Card
-twitter_card: "summary_large_image"
-twitter_title: "The MRNA Manifesto"
-twitter_description: "50 lines. Infinite worlds. A declaration of principles for the architecture that becomes any app."
-twitter_image: "/images/mrna-manifesto-og.png"
-
-# Manifesto-specific metadata
-manifesto:
-  principles: 11
-  core_lines: 50
-  apps_built: 6
-  year: 2025
-  quote: "The one is many. The many is one."
-  quote_attribution: "MRNA Manifesto, Principle X"
+draft: false
 ---
 # THE MRNA MANIFESTO
 
