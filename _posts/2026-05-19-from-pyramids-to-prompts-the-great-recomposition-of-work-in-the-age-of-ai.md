@@ -2,7 +2,7 @@
 layout: post
 title: "From Pyramids to Prompts: How AI Is Reshaping the Future of Work"
 subtitle: "Why AI is collapsing teams into individuals—and recomposing them into swarms"
-date: 2025-05-19 00:00:00 +0800
+date: 2026-05-19 00:00:00 +0800
 categories: [artificial-intelligence, future-of-work, startups]
 tags: [AI, future of work, artificial intelligence, startups, productivity, organizational design, leadership, digital transformation, Singapore, automation]
 excerpt: "AI is transforming more than productivity—it is redefining how work is organised. As execution becomes automated, traditional teams collapse into AI-powered individuals and recombine into agile swarms. This article explores the future of work, organisational design, and why speed of recomposition will define the next generation of winners."
