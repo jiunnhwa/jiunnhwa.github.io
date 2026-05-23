@@ -113,7 +113,7 @@ Another, a wall.
 
 ---
 
-## When outcomes follow a power law**
+## When outcomes follow a power law
 
 Outcomes cannot be evenly distributed if they follow a **power law** regime:
 
