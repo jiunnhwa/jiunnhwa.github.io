@@ -8,7 +8,7 @@ categories: [AI, Philosophy, Future of Work]
 tags: [artificial intelligence, identity, cognition, philosophy, productivity, future of work, psychology]
 excerpt: "AI is not just transforming what we do—it is reshaping how we understand who we are. As competence becomes commoditized, identity shifts from output to engagement, revealing a question no system can answer for us."
 reading_time: 8
-image: /assets/images/identity-shock-cover.jpg
+image: /assets/images/identity-shock-cover.png
 toc: true
 toc_label: "In this article"
 toc_icon: "brain"
