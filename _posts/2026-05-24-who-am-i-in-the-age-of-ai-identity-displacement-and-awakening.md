@@ -68,7 +68,7 @@ When intelligence is no longer a reliable differentiator, the question changes: 
 When work stops functioning as a stable mirror of selfhood, identity does not disappear. It loses external confirmation.
 
 In moments of systemic disruption, human adaptation rarely moves in one direction. It splits in multiple ways but generally falls into two dominant forms of responses:
-- **Compression into Optimization**: If raw execution becomes cheap, value shifts toward speed, metrics, and alignment with machine-readable frameworks. Humans adapt by becoming highly efficient nodes in a larger optimization system. It’s rational. It’s adaptive. But it’s also narrowing.
+- **Compression into Optimization**: If intelligence and labour becomes more machine-readable, humans do adapt by becoming highly efficient nodes in a larger wheel. It’s rational. It’s adaptive. But it’s also narrowing.
 - **Expansion into Interpretation**: If machines take over execution, what remains human is judgment, framing, and meaning-making. Identity shifts away from output and toward intention: what problems are worth solving, how they’re defined, what gets ignored, and what actually matters.
 
 This isn’t a binary choice. It’s a tension—closer to a Yin–Yang dynamic than a linear progression. 
@@ -80,7 +80,7 @@ Both emerge at the same time. Neither disappears. The question is not which exis
 
 ## AI as mirror: the self becomes visible
 
-There is a third layer that complicates everything.
+There is a third layer that muddles the id.
 
 AI is not only a displacer of identity. It is also a mirror.
 
@@ -128,7 +128,7 @@ It is access to entirely new modes of thinking.
 
 In this sense, the world does not just expand.
 
-It becomes exactly as large as your willingness to move across it.
+It becomes exactly as large as your willingness and ability to move across it.
 
 * * *
 
