@@ -1,7 +1,7 @@
 ---
 title: "Professional Diploma in Digital Innovation: A Course Summation"
 subtitle: "What the program covered, what I built, and why digital transformation matters"
-date: 2025-05-01 09:00:00 +0800
+date: 2026-05-01 09:00:00 +0800
 categories: [Digital Transformation, Power Platform, AI, RPA, Capstone]
 tags: [Power BI, Copilot Studio, Power Automate, Digital Innovation, Lithan]
 excerpt: "Continuously reinforcing the pillars of breadth(industries), and depth(roles) with a passion for lifelong learning; I have just recently completed Professional Diploma in Digital Innovation. Here's what I built: a fully integrated solution combining Power BI dashboards, a GDPR compliance chatbot, and automated travel workflows."
