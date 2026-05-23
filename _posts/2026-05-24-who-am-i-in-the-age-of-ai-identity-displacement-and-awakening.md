@@ -12,7 +12,6 @@ image: /assets/images/identity-shock-cover.png
 toc: true
 toc_label: "In this article"
 toc_icon: "brain"
-permalink: /who-am-i-in-the-age-of-ai-identity-displacement-and-awakening/
 seo_title: "AI and Identity: Redefining Self-Worth Beyond Output"
 seo_description: "Discover how AI is shifting professional identity from execution to interpretation, and why 'Who am I?' is becoming the one role founders cannot outsource."
 published: true
