@@ -3,7 +3,7 @@ title: "The MRNA Manifesto"
 subtitle: "Minimal Reactive Nucleus Architecture"
 description: "50 lines. Infinite worlds. A declaration of principles for the architecture that becomes any app."
 author: "The Man with a Thousand and One Apps"
-date: 2025-05-20
+date: 2026-05-20
 tags:
   - manifesto
   - architecture
