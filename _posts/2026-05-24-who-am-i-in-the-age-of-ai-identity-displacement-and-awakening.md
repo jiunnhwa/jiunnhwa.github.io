@@ -18,7 +18,6 @@ seo_title: "AI and Identity: Redefining Self-Worth Beyond Output"
 seo_description: "Discover how AI is shifting professional identity from execution to interpretation, and why 'Who am I?' is becoming the one role founders cannot outsource."
 published: true
 ---
-
 ## Who Am I in the Age of AI? Identity, Displacement, and Awakening
 
 There’s a moment in the film Who Am I? where Jackie Chan’s character wakes up with no name, no rank, and no recallable past. He’s still capable. Still acting. Still surviving. But the story that once made his actions feel like they belonged to someone is gone.
