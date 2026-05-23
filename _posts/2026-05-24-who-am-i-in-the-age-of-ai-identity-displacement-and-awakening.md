@@ -8,7 +8,7 @@ categories: [AI, Philosophy, Future of Work]
 tags: [artificial intelligence, identity, cognition, philosophy, productivity, future of work, psychology]
 excerpt: "AI is not just transforming what we do—it is reshaping how we understand who we are. As competence becomes commoditized, identity shifts from output to engagement, revealing a question no system can answer for us."
 reading_time: 8
-image: /assets/images/identity-shock-cover.png
+image: "/assets/images/identity-shock-cover.png"
 seo_title: "AI and Identity: Redefining Self-Worth Beyond Output"
 seo_description: "Discover how AI is shifting professional identity from execution to interpretation, and why 'Who am I?' is becoming the one role founders cannot outsource."
 ---
