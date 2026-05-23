@@ -1,7 +1,7 @@
 ---
 title: "The Rise of AI agents in Healthcare: Designing man-machine systems"
 subtitle: "Most AI discussions focus on models. But in healthcare, impact comes from systems. The Clinical Agent Stack reframes AI as a coordinated, multi-layer system where humans and machines work together."
-date: 2025-05-04 00:00:00 +0800
+date: 2026-05-04 00:00:00 +0800
 categories: [AI, Healthcare, Architecture]
 tags: [Clinical Agent Stack]
 excerpt: "Most people think AI in healthcare is about replacing doctors. It’s not. It’s about redesigning how decisions get made. It is about designing systems where humans and machines work together."
