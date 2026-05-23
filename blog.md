@@ -2,6 +2,7 @@
 layout: default
 title: "Blog"
 permalink: /blog/
+paginate: true
 ---
 
 <div class="blog">
