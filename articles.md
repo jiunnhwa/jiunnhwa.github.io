@@ -5,7 +5,6 @@ permalink: /articles/
 ---
 <!-- ====================================================== -->
 
-https://www.linkedin.com/posts/zeonchan_ai-aiagents-futureofwork-share-7460562027535601664-v2e7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACrBhbwBeX55w_w3Sldo5WU_szS0qSLACBs
 
 
 
