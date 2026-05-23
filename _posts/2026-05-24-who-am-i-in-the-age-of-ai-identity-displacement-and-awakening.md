@@ -1,3 +1,24 @@
+---
+layout: post
+title: "Who Am I in the Age of AI? Identity, Displacement, and Awakening"
+subtitle: "As AI expands intelligence across domains, it quietly destabilizes identity—forcing a deeper question only humans can answer"
+date: 2026-05-24
+author: "Jiunn"
+categories: [AI, Philosophy, Future of Work]
+tags: [artificial intelligence, identity, cognition, philosophy, productivity, future of work, psychology]
+excerpt: "AI is not just transforming what we do—it is reshaping how we understand who we are. As competence becomes commoditized, identity shifts from output to engagement, revealing a question no system can answer for us."
+reading_time: 8
+image: /assets/images/identity-shock-cover.jpg
+toc: true
+toc_label: "In this article"
+toc_icon: "brain"
+canonical_url: "https://jiunnhwa.github.io/blog/2026/05/24/who-am-i-in-the-age-of-ai-identity-displacement-and-awakening/"
+permalink: /who-am-i-in-the-age-of-ai-identity-displacement-and-awakening/
+seo_title: "AI and Identity: Redefining Self-Worth Beyond Output"
+seo_description: "Discover how AI is shifting professional identity from execution to interpretation, and why 'Who am I?' is becoming the one role founders cannot outsource."
+published: true
+---
+
 ## Who Am I in the Age of AI? Identity, Displacement, and Awakening
 
 There’s a moment in the film Who Am I? where Jackie Chan’s character wakes up with no name, no rank, and no recallable past. He’s still capable. Still acting. Still surviving. But the story that once made his actions feel like they belonged to someone is gone.
