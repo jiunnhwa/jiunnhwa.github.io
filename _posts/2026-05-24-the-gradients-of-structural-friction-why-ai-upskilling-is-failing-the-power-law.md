@@ -341,7 +341,9 @@ Until we learn to see the gradients, we will continue to optimise for motion— 
 And in time, these gradients sedimentate as grains of structural inequalities.
 
 ---
+## Appendix
 
-https://github.com/jiunnhwa/jiunnhwa.github.io/blob/dc716047d2203dbc7e3ca5b43972d9d7094100d1/assets/pdf/The%20Grains%20of%20Structural%20Friction_%20Why%20AI%20Upskilling%20Is%20Failing%20the%20Power%20Law-FINAL-e27.pdf
+[Edited version for e27](assets/pdf/The Grains of Structural Friction_ Why AI Upskilling Is Failing the Power Law-FINAL-e27.pdf)
+
 
 
