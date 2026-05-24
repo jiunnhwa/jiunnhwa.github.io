@@ -47,7 +47,7 @@ Not all learners move through the AI stack with the same resistance. Their start
 What looks like a single upskilling pathway is, in reality, a **family of curves**:
 
 
-<img width="1408" height="768" alt="The curves of AI friction" src="https://github.com/user-attachments/assets/01de3738-fd9b-4e63-aa6f-a4f4c2cc95f8" />
+<img width="800" height="400" alt="The curves of AI friction" src="https://github.com/user-attachments/assets/01de3738-fd9b-4e63-aa6f-a4f4c2cc95f8" />
 
 -   **Curve A: The Steep Precipice (Mature, Non-Digital SME)**  
     For those shaped by decades of deterministic workflows, even the first shift requires a cognitive leap. There is no gradual incline—only discontinuity.
@@ -266,7 +266,7 @@ A more effective approach accepts divergence as the starting point.
 But divergence is not just about capability—it is also about intent.  
 To design meaningful interventions, we need to move from abstract gradients to operational segmentation.
 
-<img width="1536" height="1024" alt="The Able and Willing Matrix" src="https://github.com/user-attachments/assets/d783dde9-05be-426c-b91f-48ff083c2da3" />
+<img width="800" height="400" alt="The Able and Willing Matrix" src="https://github.com/user-attachments/assets/d783dde9-05be-426c-b91f-48ff083c2da3" />
 
 This creates four distinct cohorts—each requiring fundamentally different forms of support.
 
