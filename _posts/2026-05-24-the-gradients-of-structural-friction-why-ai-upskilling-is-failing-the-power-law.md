@@ -342,8 +342,41 @@ And in time, these gradients sedimentate as grains of structural inequalities.
 
 ---
 ## Appendix
+<div>
 
-[Edited version for e27](assets/pdf/The Grains of Structural Friction_ Why AI Upskilling Is Failing the Power Law-FINAL-e27.pdf)
+<h2 id="the-hidden-variable-structural-friction">The Hidden Variable: Structural Friction</h2>
+<p>The core constraint is not access. It is&nbsp;<strong>structural friction</strong>.</p>
+<blockquote>
+<p><strong>Structural friction is the total resistance an individual faces in converting access into capability&mdash;across cognitive, environmental, and behavioural dimensions.</strong></p>
+</blockquote>
+<p>This includes:</p>
+<ul>
+<li>The mental models individuals bring</li>
+<li>The environments they operate within</li>
+<li>The habits, incentives, and identities they carry</li>
+</ul>
 
+<hr>
 
+<hr />
+<h2 id="the-bottom-line">The Bottom Line</h2>
+<p>AI has the potential to be either a universal equaliser or a powerful divider.</p>
+<p>Access is necessary&mdash;but far from sufficient.</p>
+<p>In a power-law system, equality of input does not produce equality of outcome. Structural friction determines who compounds&mdash;and who stalls.</p>
+<p>We can understand this through a&nbsp;<strong>Power-Law Constraint Model</strong>:</p>
+<blockquote>
+<p>Outcomes are shaped by the interaction between structural friction, compounding dynamics, and a continuously shifting technological frontier.</p>
+</blockquote>
+<p>The divide will not be closed by giving everyone the same curriculum.</p>
+<p>The risk is not that AI leaves people behind.<br />It is that it accelerates unevenly&mdash;and we mistake that acceleration for progress.</p>
+<p>Until we learn to see the gradients, we will continue to optimise for motion rather than meaningful improvement.</p>
+<p>Over time, these gradients do not disappear.<br />They accumulate&mdash;settling into the grains of structural inequality.</p>
+<hr />
+<h2 id="one-line-summary">One-Line Summary</h2>
+<blockquote>
+<p>In a power-law system, progress is determined not by how far you are&mdash;but by how hard it is for you to move, and how fast the world is moving while you try.</p>
+</blockquote>
+
+<a href="https://github.com/jiunnhwa/jiunnhwa.github.io/blob/90ec169a948670705c20aaf0604a12178c438e7a/assets/pdf/The%20Grains%20of%20Structural%20Friction_%20Why%20AI%20Upskilling%20Is%20Failing%20the%20Power%20Law-FINAL-e27.pdf" target="_blank">Edited for e27 article</a>  
+</div>
 
