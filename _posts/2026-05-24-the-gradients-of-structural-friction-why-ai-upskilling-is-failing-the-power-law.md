@@ -354,11 +354,16 @@ And in time, these gradients sedimentate as grains of structural inequalities.
 <li>The mental models individuals bring</li>
 <li>The environments they operate within</li>
 <li>The habits, incentives, and identities they carry</li>
+<li>Their current capabilities</li>
 </ul>
+<p>Two individuals may be equally exposed to AI. They may have access to the same tools, courses, and information.</p>
+<p>Yet their ability to convert that access into meaningful outcomes can differ dramatically.</p>
+<p>Why?</p>
+<p>Because the effort required to move forward is not constant. It varies&mdash;sometimes subtly, sometimes exponentially.</p>
 
 <hr>
 
-<hr />
+
 <h2 id="the-bottom-line">The Bottom Line</h2>
 <p>AI has the potential to be either a universal equaliser or a powerful divider.</p>
 <p>Access is necessary&mdash;but far from sufficient.</p>
