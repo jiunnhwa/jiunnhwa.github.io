@@ -43,7 +43,7 @@ This creates a strange condition: we haven’t forgotten who we are, but we’re
 
 It’s not amnesia. 
 
-It is **displacement of meaning-an alienation of self.**
+It is a **displacement of meaning-an alienation of self.**
 
 ---
 ## The Identity Scaffolding Was Never Just Personal
