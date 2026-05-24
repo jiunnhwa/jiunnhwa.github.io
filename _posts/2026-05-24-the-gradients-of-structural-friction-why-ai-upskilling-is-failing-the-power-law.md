@@ -382,6 +382,6 @@ And in time, these gradients sedimentate as grains of structural inequalities.
 <p>In a power-law system, progress is determined not by how far you are&mdash;but by how hard it is for you to move, and how fast the world is moving while you try.</p>
 </blockquote>
 
-<a href="https://github.com/jiunnhwa/jiunnhwa.github.io/blob/90ec169a948670705c20aaf0604a12178c438e7a/assets/pdf/The%20Grains%20of%20Structural%20Friction_%20Why%20AI%20Upskilling%20Is%20Failing%20the%20Power%20Law-FINAL-e27.pdf" target="_blank">Edited for e27 article</a>  
+<a href="https://jiunnhwa.github.io/assets/pdf/The%20Grains%20of%20Structural%20Friction_%20Why%20AI%20Upskilling%20Is%20Failing%20the%20Power%20Law-FINAL-e27.pdf" target="_blank">Edited for e27 article</a>  
 </div>
 
