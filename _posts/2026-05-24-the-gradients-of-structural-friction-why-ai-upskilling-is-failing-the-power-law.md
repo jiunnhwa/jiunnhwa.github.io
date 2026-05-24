@@ -339,3 +339,9 @@ It is that it accelerates unevenly—and we mistake that acceleration for progre
 Until we learn to see the gradients, we will continue to optimise for motion— not improvements.
 
 And in time, these gradients sedimentate as grains of structural inequalities.
+
+---
+
+https://github.com/jiunnhwa/jiunnhwa.github.io/blob/dc716047d2203dbc7e3ca5b43972d9d7094100d1/assets/pdf/The%20Grains%20of%20Structural%20Friction_%20Why%20AI%20Upskilling%20Is%20Failing%20the%20Power%20Law-FINAL-e27.pdf
+
+
