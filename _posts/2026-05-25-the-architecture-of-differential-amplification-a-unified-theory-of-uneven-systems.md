@@ -1,11 +1,9 @@
 ---
+layout: post
 title: "The Architecture of Differential Amplification"
 subtitle: "A Unified Theory of Uneven Systems: From Physics and Philosophy to Product and Strategy"
 date: 2026-05-26
 author: "Jiunn"
-description: >
-  A cross-disciplinary synthesis mapping the observable patterns, generative mechanisms, philosophical roots, and physical parallels of power-law distributions. 
-  Integrates theory, first-principles reasoning, and actionable design frameworks for engineering compounding loops, capturing asymmetry, and positioning within heavy-tailed systems.
 tags:
   - power-laws
   - systems-thinking
@@ -36,14 +34,10 @@ source_parts:
   - Part 3: Engineering the Curve: Building a Killer App Or Startup
   - Part 4: Philosophical Basis
   - Part 5: Physics
-version: "1.0.0"
-reading_time: "12 min"
-target_audience:
-  - founders
-  - product designers
-  - systems theorists
-  - strategists
-  - interdisciplinary researchers
+excerpt: "A cross-disciplinary synthesis mapping the observable patterns, generative mechanisms, philosophical roots, and physical parallels of power-law distributions."
+reading_time: 12
+seo_title: "A Unified Theory of Uneven Systems: From Physics and Philosophy to Product and Strategy"
+seo_description: "A cross-disciplinary synthesis mapping the observable patterns, generative mechanisms, philosophical roots, and physical parallels of power-law distributions. Integrates theory, first-principles reasoning, and actionable design frameworks for engineering compounding loops, capturing asymmetry, and positioning within heavy-tailed systems."
 ---
 # The Architecture of Differential Amplification: A Unified Theory of Uneven Systems
 
