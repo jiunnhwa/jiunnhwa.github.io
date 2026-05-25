@@ -20,20 +20,6 @@ categories:
   - Applied Systems Design
   - Strategy & Growth
   - Interdisciplinary Synthesis
-structure:
-  - I. Introduction: Beyond the Average
-  - II. The Observable Layer: The Trio
-  - III. The Generative Engine: Four Irreducible Factors
-  - IV. The Universal Invariant: Where Physics and Philosophy Converge
-  - V. The Practical Layer: Engineering the Curve
-  - VI. Unified Theory: The Law of Differential Amplification
-  - VII. Conclusion: Shaping the Curve
-source_parts:
-  - Part 1: The Trio: Power Laws and the Shape of Uneven Worlds
-  - Part 2: The Generative Layer: What Produces Power Laws
-  - Part 3: Engineering the Curve: Building a Killer App Or Startup
-  - Part 4: Philosophical Basis
-  - Part 5: Physics
 excerpt: "A cross-disciplinary synthesis mapping the observable patterns, generative mechanisms, philosophical roots, and physical parallels of power-law distributions."
 reading_time: 12
 seo_title: "A Unified Theory of Uneven Systems: From Physics and Philosophy to Product and Strategy"
