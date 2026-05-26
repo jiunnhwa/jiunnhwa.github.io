@@ -20,6 +20,40 @@ permalink: /articles/
         <!-- Add NEW articles at the TOP of this list -->
         <!-- ************************************************* -->
 
+
+        <!-- ====================================================== -->
+
+
+        
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/ai-makes-solo-companies-easier-and-harder-20260521/" target="_blank">The one-person company revolution: How to build more with AI (without losing your mind)?</a>
+            </h2>
+            <div class="article-meta">📅 25 May 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+“Vibe coding” has made building feel accessible to everyone.
+
+But it hasn’t made outcomes equal.
+If anything, the gap is widening.
+
+Because AI doesn’t replace thinking—it reflects it.
+
+What you get depends on how you think.
+
+The more precise framing is this: AI has lowered the floor of app development, but raised the ceiling of what good looks like.
+        
+            </div>
+            <a href="https://lnkd.in/gsRJZk4e" class="read-article" target="_blank">read short post on linkedin →</a><br>
+            <a href="https://e27.co/ai-makes-solo-companies-easier-and-harder-20260521/" class="read-article" target="_blank">read article on e27 →</a>
+        </article>
+
+        <!-- ====================================================== -->
+
+
+
+
+
         <!-- ====================================================== -->
         
         <article class="article-item">
