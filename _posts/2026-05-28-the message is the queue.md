@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "The Message Is the Queue"
-subtitle: "How a single denormalized SQLite row becomes an event log, work queue, read model, and audit trail—all at once"
+subtitle: "How a single denormalized SQLite row becomes an event log, queue, read model, and audit trail—at once"
 date: 2026-05-28
 author: "Jiunn"
-tags: ["architecture", "event-driven", "messaging", "sqlite", "systems-design", "ai-agents"]
+tags: ["architecture", "event-driven", "distributed-systems", "sqlite", "systems-design", "event-sourcing"]
 categories: ["Engineering", "Architecture"]
-excerpt: "A different way to think about messaging systems: treat every message as a fact in a queue, not an event to handle—unlocking resilience, extensibility, and simplicity with a single denormalized table."
+excerpt: "Most messaging systems try to handle events in real time. This one doesn’t. By treating every message as a fact in a queue, a single SQLite row becomes an event log, work queue, read model, and audit trail—unlocking a simpler, more resilient architecture."
 reading_time: 12
-seo_title: "The Message Is the Queue: A Simpler Event-Driven Architecture with SQLite"
-seo_description: "Learn how a single denormalized SQLite table can act as an event log, queue, read model, and audit trail—simplifying messaging system design and improving resilience."
+seo_title: "The Message Is the Queue: Rethinking Event-Driven Architecture with SQLite"
+seo_description: "A new way to design messaging systems: use a single denormalized SQLite table as your event log, queue, read model, and audit trail—simplifying architecture while improving resilience."
 ---
 # The Message Is the Queue — WA-Hub Architecture
 
