@@ -1,8 +1,16 @@
-Title: The Message Is the Queue — WA-Hub Architecture
-
-
-
-Markdown Content:
+---
+layout: post
+title: "The Message Is the Queue"
+subtitle: "How a single denormalized SQLite row becomes an event log, work queue, read model, and audit trail—all at once"
+date: 2026-05-28
+author: "Jiunn"
+tags: ["architecture", "event-driven", "messaging", "sqlite", "systems-design", "ai-agents"]
+categories: ["Engineering", "Architecture"]
+excerpt: "A different way to think about messaging systems: treat every message as a fact in a queue, not an event to handle—unlocking resilience, extensibility, and simplicity with a single denormalized table."
+reading_time: 12
+seo_title: "The Message Is the Queue: A Simpler Event-Driven Architecture with SQLite"
+seo_description: "Learn how a single denormalized SQLite table can act as an event log, queue, read model, and audit trail—simplifying messaging system design and improving resilience."
+---
 # The Message Is the Queue — WA-Hub Architecture
 
 Architecture · WA-Hub v0.3
@@ -21,7 +29,7 @@ Most messaging integrations are built the same way: WhatsApp sends an event, you
 
 WA-Hub takes a different approach. The insight is simple: **the message stream is a queue of facts, not a stream of events to be handled immediately.** If you treat it that way from the start, everything else — resilience, extensibility, auditability — falls out naturally.
 
- "WhatsApp is ubiquitous. It makes a good point of data ingest. Future apps are just reacting to messages and triggering actions." 
+ >"WhatsApp is ubiquitous. It makes a good point of data ingest. Future apps are just reacting to messages and triggering actions." 
 
 That observation is the seed of the architecture. Once you accept that WhatsApp (or Telegram, or email) is an _input bus_ rather than a chat interface, the design question changes from "how do I handle this message" to "how do I record this fact and let the right services react to it later."
 
@@ -29,15 +37,8 @@ That observation is the seed of the architecture. Once you accept that WhatsApp 
 
 The ingestor has a single responsibility: receive a raw channel event, normalize it into a standard shape, and POST it to `/api/queue`. That's all it does. It doesn't touch a database. It doesn't know about contacts or conversations. It doesn't classify intent.
 
-WhatsApp ──→ wa-ingest    normalize → POST /api/queue
-Telegram ──→ tg-ingest    normalize → POST /api/queue
-Email ─────→ em-ingest    normalize → POST /api/queue
-                                        │
-                              ┌─────────┴─────────┐
-                         worker goroutine        (256-buf channel)
-                              │
-                    ┌─────────┼──────────┬──────────┐
-               write DB  SSE push  classify   enrich
+> <img width="540" height="231" alt="image" src="https://github.com/user-attachments/assets/5eadaa7f-853e-4041-9d06-b499ef6b1818" />
+
 
 The HTTP response from `/api/queue` is **202 Accepted** — not 200 OK. The ingestor is told "received", not "written". This distinction matters: the ingestor's job ends when the message is in the queue. Everything downstream is someone else's problem.
 
