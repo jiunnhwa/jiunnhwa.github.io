@@ -35,7 +35,7 @@ And most importantly:
 
 For most of human history, learning was not a system.
 
-It was survival.
+It was survival. 
 
 Skills were acquired through imitation, repetition, and necessity. You learned by doing—because doing was the only option. Knowledge was scarce, local, and deeply tied to context.
 
