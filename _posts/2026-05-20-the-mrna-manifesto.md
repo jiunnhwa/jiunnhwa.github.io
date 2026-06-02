@@ -1,4 +1,4 @@
-<img width="124" height="150" alt="mrna_layer_functions" src="https://github.com/user-attachments/assets/8fc11ef0-4f31-4185-be4c-9aa0b571c538" />---
+---
 title: "The MRNA Manifesto"
 subtitle: "Minimal Reactive Nucleus Architecture"
 description: "50 lines. Infinite worlds. A declaration of principles for the architecture that becomes any app."
