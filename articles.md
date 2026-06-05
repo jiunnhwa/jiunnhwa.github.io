@@ -21,6 +21,64 @@ permalink: /articles/
         <!-- ************************************************* -->
 
 
+
+
+
+
+        <!-- ====================================================== -->
+
+
+        
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/building-with-ai-has-never-been-easier-just-do-not-build-the-next-chegg-20260531/" target="_blank">Building with AI has never been easier, just do not build the next Chegg</a>
+            </h2>
+            <div class="article-meta">📅 01 Jun 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre>
+Did ChatGPT Kill the Edu-Star?
+
+Chegg was widely popular among students for the past two decades, and was also a Wall Street favourite. However, on May 2, 2023, Chegg became one of the first major companies to publicly admit that OpenAI's ChatGPT was directly hurting its subscriber growth. Following that Q1 earnings call, Chegg's stock plummeted nearly 50% overnight as students abandoned paid subscriptions for free AI chatbots.
+
+Chegg didn’t fail because of poor execution.
+
+Chegg didn’t fail because it stood still.
+
+It failed because: The layer it operated on collapsed.
+
+On hindsight, could Chegg have done better?
+Likely not.
+
+There was no precedent.
+And the shift came fast — and unforgiving.
+
+If your product can be replicated via a prompt, you are running against time.
+We are entering a phase where competition doesn’t just improve products.
+
+It erases categories.
+Some businesses are Casualty Stacks while some are Value Fortresses
+
+The difference is structural — not executional.
+
+To make this tangible, I built a simple tool that helps diagnose the defensibility of your idea:
+
+https://jiunnhwa.github.io/Value-Fortress-Stack/
+
+It helps to shine a light on an uncomfortable question:
+
+If AI attacked your business tomorrow, would it survive?
+
+Build, but do not build the next Chegg, mate.
+</pre>
+        
+            </div>
+            
+            <a href="https://e27.co/building-with-ai-has-never-been-easier-just-do-not-build-the-next-chegg-20260531/" class="read-article" target="_blank">read article on e27 →</a>
+        </article>
+
+        <!-- ====================================================== -->
+
         <!-- ====================================================== -->
 
 
