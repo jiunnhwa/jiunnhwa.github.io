@@ -1,3 +1,16 @@
+---
+layout: post
+title: "The 48-Line Universe: Taming the 'Beast' of State Management"
+subtitle: "Rebuilding the RSM API Client with a Domain-Driven Universal State Framework"
+date: 2026-06-09
+author: "Jiunn"
+tags: ["state-management", "javascript", "api-client", "universal-framework", "architecture", "rsm", "frontend", "tdd", "wails"]
+categories: ["Engineering", "Frontend Architecture", "Case Study"]
+excerpt: "We replaced 35 Jotai atoms and 500+ lines of boilerplate with a single 48-line JavaScript engine. Discover how domain-driven FSMs, TOML-driven specs, and IndexedDB persistence transformed our API client from chaotic to elegant."
+reading_time: "8 min read"
+seo_title: "Universal State Framework: A 48-Line JavaScript State Management Engine"
+seo_description: "A technical case study on rebuilding an API client using a custom 48-line state engine. Learn how we replaced Jotai/React patterns with orthogonal dimensions, plugin hooks, and TOML-driven development for cleaner, more portable code."
+---
 # The 48-Line Universe: Taming the "Beast" of State Management
 
 When I compiled the final `v0.31-baseline.html` for our API Client, the line counter stopped exactly at **666 lines**. 
