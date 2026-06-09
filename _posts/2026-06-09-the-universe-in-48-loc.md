@@ -67,7 +67,7 @@ We didn't just write less code; we elevated the code from "UI glue" to "business
 
 ### 1. USE vs. The Old Jotai Architecture
 | Feature | Old Jotai (v0.22A) | Universal State Engine (v0.31) |
-| :--- | :--- | :--- |
+| --- | --- | --- |
 | **State Definition** | 35 separate `atom()` calls | 1 `createDocument()` call |
 | **State Mutation** | `store.set(loading, true)` + `store.set(execution, 'fetching')` | `engine.transition(id, 'execution', 'fetching')` |
 | **UI Sync** | 15 manual `store.sub()` subscriptions | 1 unified `renderAll()` or targeted reactivity |
