@@ -75,6 +75,44 @@ We didn't just write less code; we elevated the code from "UI glue" to "business
 | **Middleware** | Custom `pipe()`, `withLogging()`, `withTimeTravel()` | Built-in Plugin Hooks |
 | **Total LOC** | ~500 lines (scattered across files) | ~200 lines (highly cohesive) |
 
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Feature</th>
+<th style="text-align:left">Old Jotai (v0.22A)</th>
+<th style="text-align:left">Universal State Engine (v0.31)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>State Definition</strong></td>
+<td style="text-align:left">35 separate <code>atom()</code> calls</td>
+<td style="text-align:left">1 <code>createDocument()</code> call</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>State Mutation</strong></td>
+<td style="text-align:left"><code>store.set(loading, true)</code> + <code>store.set(execution, 'fetching')</code></td>
+<td style="text-align:left"><code>engine.transition(id, 'execution', 'fetching')</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>UI Sync</strong></td>
+<td style="text-align:left">15 manual <code>store.sub()</code> subscriptions</td>
+<td style="text-align:left">1 unified <code>renderAll()</code> or targeted reactivity</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Middleware</strong></td>
+<td style="text-align:left">Custom <code>pipe()</code>, <code>withLogging()</code>, <code>withTimeTravel()</code></td>
+<td style="text-align:left">Built-in Plugin Hooks</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Total LOC</strong></td>
+<td style="text-align:left">~500 lines (scattered across files)</td>
+<td style="text-align:left">~200 lines (highly cohesive)</td>
+</tr>
+</tbody>
+</table>
+
+
 **The Verdict:** The old way was reactive but fragmented. The USE is **domain-driven**. You don't tell the UI what to do; you tell the Engine to transition, and the UI follows.
 
 ### 2. USE vs. React / Vue
