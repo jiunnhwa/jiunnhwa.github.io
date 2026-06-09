@@ -25,6 +25,9 @@ And at the heart of this transformation? A **48-line JavaScript class** that des
 
 ##  The History: The Era of "Dust"
 
+
+> we compressed the entire universe into ~48 lines of code.
+
 To understand the 48 lines, we have to look at what we burned to get here. 
 
 In **v0.22A**, our API Client was built on a "Jotai + Middleware" architecture. It worked, but it was heavy with what I call "architectural dust":
@@ -158,3 +161,5 @@ Since we're wrapping up, here is a quick retrospective based on our session:
 | 🟡 **What We Learned** | **Time Sources Matter:** The `performance.now()` vs `Date.now()` bug showed that even simple math needs strict rules in the spec.<br>**Reactivity Gaps:** We had to manually trigger `renderResults()` after IDB saves; the framework doesn't auto-magically know about external DBs yet. |
 | 🔵 **Next Sprint (A2)** | **Request Body Editor:** JSON/Raw with "Pretty" formatting.<br>**cURL Parser:** Integrating the smart-paste logic.<br>**Environment Switcher:** Managing Prod/Staging/Local variables. |
 
+Scribe : Mr Qwen.  
+Owner: Jiunn
