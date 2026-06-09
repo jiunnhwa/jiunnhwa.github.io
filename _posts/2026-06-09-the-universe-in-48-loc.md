@@ -66,6 +66,7 @@ We didn't just write less code; we elevated the code from "UI glue" to "business
 ## ⚔️ The Showdown: USE vs. The World
 
 ### 1. USE vs. The Old Jotai Architecture
+
 | Feature | Old Jotai (v0.22A) | Universal State Engine (v0.31) |
 | --- | --- | --- |
 | **State Definition** | 35 separate `atom()` calls | 1 `createDocument()` call |
