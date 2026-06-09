@@ -26,7 +26,8 @@ And at the heart of this transformation? A **48-line JavaScript class** that des
 ##  The History: The Era of "Dust"
 
 
-> we compressed the entire universe into ~48 lines of code.
+> we compressed the entire universe into ~48 lines of code.  
+
 
 To understand the 48 lines, we have to look at what we burned to get here. 
 
