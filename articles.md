@@ -31,6 +31,91 @@ permalink: /articles/
         
         <article class="article-item">
             <h2 class="article-title">
+                <a href=" https://e27.co/ai-doesnt-fail-because-its-wrong-it-fails-because-you-overload-it-20260605/" target="_blank">AI doesn’t fail because it’s wrong — It fails because you overload it</a>
+            </h2>
+            <div class="article-meta">📅 12 Jun 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre>
+Most people think AI fails because it’s wrong.
+
+It doesn’t.
+
+It fails because we overload it.
+
+
+While building my API client, I hit a wall.
+
+At first, AI felt incredibly powerful:
+• Full UI generated
+• Components wired together
+• Everything in one go
+
+Then things started breaking.
+
+Fix one bug → two new bugs appear
+Add a feature → something else disappears
+
+A natural first instinct could be:
+“Maybe the model isn’t good enough.”
+“Maybe I need a better prompt.”
+
+
+Thanks to my sociological background - I asked differently:
+ “You seem to make more mistakes as the system grows. How can I help?”
+
+
+DeepSeek was surprised by my question, and its answer also surprised me, and reframed everything: “I don’t get tired. But I do get crowded. Think of me as a desk, put too many papers on it, and things start falling off.”
+
+    
+The answer i was prompting was actually its real issue/constraint, and is this:
+AI doesn’t run out of memory.
+It runs out of attention.
+
+When you push too much into one system, things start to fall apart.
+
+
+Not because AI is flawed — but because the way we’re using it is.
+
+The breakthrough was simple:
+
+Instead of:
+“Build everything”
+
+I scoped to:
+“Build this component” → test
+“Add the next piece” → test
+“Then integrate”
+
+Everything changed.
+Fewer bugs. Faster cycles. More control.
+
+The shift:
+The AI builds fast.
+The human keeps the system coherent.
+
+Sensing the limits is more like a balancing act.
+Systems break when you try to engineer without understanding all systems have implicit constraints.
+
+Building with AI is hence closer to a dance.
+
+This article got published just at the right time — launching around July 4th a new API Client — looking to redefine the space.
+</pre>
+        
+            </div>
+            
+            <a href="https://e27.co/ai-doesnt-fail-because-its-wrong-it-fails-because-you-overload-it-20260605/" class="read-article" target="_blank">read article on e27 →</a>
+        </article>
+
+        <!-- ====================================================== -->
+
+
+        <!-- ====================================================== -->
+
+
+        
+        <article class="article-item">
+            <h2 class="article-title">
                 <a href="https://e27.co/building-with-ai-has-never-been-easier-just-do-not-build-the-next-chegg-20260531/" target="_blank">Building with AI has never been easier, just do not build the next Chegg</a>
             </h2>
             <div class="article-meta">📅 01 Jun 2026 | 📍 e27</div>
