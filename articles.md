@@ -24,6 +24,54 @@ permalink: /articles/
 
 
 
+        <!-- ====================================================== -->
+
+
+        
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/from-pyramids-to-prompts-the-great-recomposition-of-work-in-the-age-of-ai-20260609/" target="_blank">From pyramids to prompts: The great recomposition of work in the age of AI</a>
+            </h2>
+            <div class="article-meta">📅 25 Jun 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre>
+Most organisations are still built like pyramids.
+
+But work no longer behaves that way.
+
+AI is quietly removing the need for coordination at scale—the very reason pyramids existed in the first place.
+
+What replaces it isn’t flatter hierarchies.
+
+It’s something more radical:
+→ Individuals with the output of teams
+→ Teams that assemble and dissolve on demand
+→ Organisations that behave more like swarms than structures
+
+We are not just changing how work gets done.
+We are changing how work is organised.
+
+In this piece, I explore:
+- Why “team of one” is no longer a metaphor
+- How capability is recomposing into fluid swarms
+- Why advantage is shifting from scale → speed of reconfiguration
+- And why places like Singapore may be uniquely positioned for this shift
+
+This is not a future scenario.
+
+It’s already happening.
+    
+</pre>
+        
+            </div>
+            
+            <a href="https://e27.co/from-pyramids-to-prompts-the-great-recomposition-of-work-in-the-age-of-ai-20260609/" class="read-article" target="_blank">read article on e27 →</a>
+        </article>
+
+        <!-- ====================================================== -->
+
+
 
         <!-- ====================================================== -->
 
