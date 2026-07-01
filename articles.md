@@ -37,7 +37,7 @@ What you knew.
 What you produced.
 Where you added value.
 
-But when AI can write, code, analyze, and reason—that foundation of identity begins to disrupt.
+But when AI starts to write, code, analyze, and reason—that foundation of identity begins to disrupt.
 
 And as AI entrenches, a question that is becoming harder to avoid surfaces:
 Who are you, when what you produce is no longer uniquely yours?
