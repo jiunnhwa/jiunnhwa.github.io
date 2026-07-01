@@ -31,7 +31,7 @@ permalink: /articles/
             <div class="article-meta">📅 02 Jul 2026 | 📍 e27</div>
             <div class="article-excerpt">
 
-
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
 For much of history, identity was built on competence:
 What you knew.
 What you produced.
@@ -47,7 +47,7 @@ In this piece, I explore:
 • Why “Who am I?” becomes the one question no AI can answer
 
 #AI #FutureOfWork #Philosophy #Identity #Technology    
-
+</pre>
         
             </div>
             
