@@ -64,7 +64,7 @@ In this piece, I explore:
             <div class="article-meta">📅 25 Jun 2026 | 📍 e27</div>
             <div class="article-excerpt">
 
-<pre>
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
 Most organisations are still built like pyramids.
 
 But work no longer behaves that way.
@@ -113,7 +113,7 @@ It’s already happening.
             <div class="article-meta">📅 12 Jun 2026 | 📍 e27</div>
             <div class="article-excerpt">
 
-<pre>
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
 Most people think AI fails because it’s wrong.
 
 It doesn’t.
@@ -198,7 +198,7 @@ This article got published just at the right time — launching around July 4th 
             <div class="article-meta">📅 01 Jun 2026 | 📍 e27</div>
             <div class="article-excerpt">
 
-<pre>
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
 Did ChatGPT Kill the Edu-Star?
 
 Chegg was widely popular among students for the past two decades, and was also a Wall Street favourite. However, on May 2, 2023, Chegg became one of the first major companies to publicly admit that OpenAI's ChatGPT was directly hurting its subscriber growth. Following that Q1 earnings call, Chegg's stock plummeted nearly 50% overnight as students abandoned paid subscriptions for free AI chatbots.
