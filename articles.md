@@ -23,11 +23,40 @@ permalink: /articles/
 
 
 
+        <!-- ====================================================== -->
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href=" https://e27.co/who-am-i-in-the-age-of-ai-identity-displacement-and-awakening-20260617/" target="_blank">Who am I in the age of AI? Identity, displacement, and awakening</a>
+            </h2>
+            <div class="article-meta">📅 02 Jul 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre>
+For much of history, identity was built on competence:
+What you knew.
+What you produced.
+Where you added value.
+
+But when AI can write, code, analyze, and reason—that foundation of identity begins to disrupt.
+
+And as AI entrenches, a question that is becoming harder to avoid surfaces:
+Who are you, when what you produce is no longer uniquely yours?
+
+In this piece, I explore:
+• Why AI feels like identity loss but is not
+• Why “Who am I?” becomes the one question no AI can answer
+
+#AI #FutureOfWork #Philosophy #Identity #Technology    
+</pre>
+        
+            </div>
+            
+        </article>
 
         <!-- ====================================================== -->
 
 
-        
+        <!-- ====================================================== -->
         <article class="article-item">
             <h2 class="article-title">
                 <a href="https://e27.co/from-pyramids-to-prompts-the-great-recomposition-of-work-in-the-age-of-ai-20260609/" target="_blank">From pyramids to prompts: The great recomposition of work in the age of AI</a>
