@@ -9,6 +9,10 @@ permalink: /articles/
 
 
 
+
+
+
+
 <div class="articles">
     <header class="articles-header">
         <h1>📝 Articles</h1>
@@ -21,6 +25,38 @@ permalink: /articles/
         <!-- ************************************************* -->
 
 
+
+
+
+
+        <!-- ====================================================== -->
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/the-grains-of-structural-friction-why-ai-upskilling-is-failing-the-power-law-20260617/" target="_blank">The grains of structural friction: Why AI upskilling is failing the power law</a>
+            </h2>
+            <div class="article-meta">📅 07 Jul 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
+Most AI upskilling efforts are treading water.
+Not because people aren’t trying.
+Not because the tools aren’t powerful.
+    
+But because we are ignoring something deeper.
+I recently explored this in my article:“The grains of structural friction: Why AI upskilling is failing the power law” 
+
+Here’s the core idea:
+We assume skills scale linearly —learn a bit → improve a bit.
+
+But the reality is not a linear relationship but a power law. This is expressed by differing outcomes — small number of individuals and organizations capturing disproportionate value from AI, while the majority gain average result. Until we understand it, we cannot address the gap which will continue to widen.
+    
+#AI #Upskilling #FutureOfWork #PowerLaw #Innovation #Leadership
+</pre>
+            </div>
+        </article>
+        <!-- ====================================================== -->
+
+        
 
 
         <!-- ====================================================== -->
