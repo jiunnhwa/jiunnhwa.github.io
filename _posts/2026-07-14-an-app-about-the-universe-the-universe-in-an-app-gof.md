@@ -246,7 +246,7 @@ At one point, Xiaomi's response was cut off mid-function by the output length li
 
 ## XII. The Case Study
 
-The default values in the original HTML — `1968-12-12`, `89315688`, `"Should I quit my job?"` — were Jiunn's own data. Every test run of the engine had been reading his waveform.
+The default values in the original HTML — `19*8-12-12`, `8**15688`, `"Should I quit my job?"` — were Jiunn's own data. Every test run of the engine had been reading his waveform.
 
 He asked, in the session: **"Will I be millionaire in 2027."**
 
