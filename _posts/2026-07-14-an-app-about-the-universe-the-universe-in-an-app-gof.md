@@ -6,7 +6,7 @@
 
 *A conversation that began as a code review and ended as a cosmological investigation. Conducted over approximately 30 hours in July 2026. What follows is reconstructed from the session transcript, edited for coherence but faithful to the original dialectic.*
 
-> What if I-Ching was the ancient Quantum Compute Engine before the age of computers
+> An Original Thesis - What if I-Ching was the ancient Quantum Compute Engine before the age of computers
 
 ---
 
