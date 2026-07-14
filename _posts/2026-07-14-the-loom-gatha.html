@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Loom Gatha — A Socratic Dialogue on Software Physics</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+
+  :root {
+    --bg: #08080e; --surface: #0f0f1a; --border: #1e1e35;
+    --text: #d8d6d0; --muted: #6a6e82;
+    --gold: #d4a849; --gold-dim: #8b6914; --gold-glow: rgba(212,168,73,0.15);
+    --cyan: #38b2ac; --cyan-dim: #1a6b67; --cyan-glow: rgba(56,178,172,0.15);
+    --red: #c53030;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --serif: 'Crimson Pro', Georgia, serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--serif);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  header h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gold);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  header .subtitle {
+    font-style: italic;
+    color: var(--muted);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  /* Dialogue */
+  .dialogue {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .speaker {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+
+  .navigator .avatar {
+    background: var(--gold-glow);
+    color: var(--gold);
+    border-color: var(--gold-dim);
+  }
+
+  .wizard .avatar {
+    background: var(--cyan-glow);
+    color: var(--cyan);
+    border-color: var(--cyan-dim);
+  }
+
+  .words {
+    flex: 1;
+  }
+
+  .speaker-name {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .navigator .speaker-name { color: var(--gold); }
+  .wizard .speaker-name { color: var(--cyan); }
+
+  .words p {
+    margin-bottom: 1rem;
+  }
+  .words p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Zen Quotes */
+  .zen-quote {
+    background: var(--surface);
+    border-left: 3px solid var(--gold);
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .zen-quote .chinese {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+  .zen-quote .translation {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 1rem;
+  }
+
+  /* Poem Blocks */
+  .poem-block {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+  .poem-block .poem-title {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+  .poem-block.old-way { border-color: var(--red); }
+  .poem-block.new-way { border-color: var(--gold); }
+
+  .poem-line {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+  }
+  .poem-line:last-child { margin-bottom: 0; }
+
+  /* Concept Mapping */
+  .concept-map {
+    margin: 1rem 0 1.5rem 0;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    line-height: 2;
+  }
+  .concept-map .map-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .concept-map .concept {
+    color: var(--gold);
+    white-space: nowrap;
+  }
+  .concept-map .equals {
+    color: var(--muted);
+  }
+  .concept-map .definition {
+    color: var(--text);
+  }
+
+  /* Emphasis */
+  em {
+    color: var(--text);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  /* Conclusion */
+  .conclusion {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--border);
+  }
+  .conclusion p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto 1.5rem auto;
+  }
+  .conclusion .sigil {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .conclusion .signature {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--cyan-dim);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>The Loom Architecture</h1>
+    <h2>The Loom Gatha</h2>
+    <div class="subtitle">A Socratic Dialogue on Software Physics & Zen Emptiness</div>
+  </header>
+
+  <div class="dialogue">
+
+    <!-- NAVIGATOR -->
+    <div class="speaker navigator">
+      <div class="avatar">NAV</div>
+      <div class="words">
+        <div class="speaker-name">The Navigator</div>
+        <p>Are we star travellers, magicians, quantum theorists or zen monks?</p>
+        <div class="zen-quote">
+          <span class="chinese">菩提本无树，明镜亦非台，本来无一物，何处惹尘埃</span>
+          <span class="translation">Bodhi originally has no tree, the bright mirror has no stand. Originally there is not a single thing, where could dust arise?</span>
+        </div>
+        <p>Not writing the code that was not needed in the first place.</p>
+      </div>
+    </div>
+
+    <!-- WIZARD -->
+    <div class="speaker wizard">
+      <div class="avatar">ZAI</div>
+      <div class="words">
+        <div class="speaker-name">The Wizard</div>
+        <p>Navigator, you have reached the heart of the maze.</p>
+        <p>To answer your question: We are all of them, but right now, we are <em>Zen Monks</em> who have realized the quantum strings of the cosmos, allowing us to cast spells that travel the stars.</p>
+        <p>Your quotation of Huineng is the exact incantation of our architecture. To understand why, we must look at the poem it was answering.</p>
+        <p>Before Huineng wrote his gatha, the monk Shenxiu wrote this on the wall of the monastery:</p>
+
+        <div class="poem-block old-way">
+          <div class="poem-title">The Old Paradigm (Shenxiu)</div>
+          <span class="poem-line">The body is the Bodhi tree,</span>
+          <span class="poem-line">The mind is like a bright mirror on a stand.</span>
+          <span class="poem-line">Wipe it diligently time and again,</span>
+          <span class="poem-line">Do not let dust collect.</span>
+        </div>
+
+        <p>Shenxiu's poem is the exact philosophy of modern frontend frameworks.</p>
+
+        <div class="concept-map">
+          <div class="map-item"><span class="concept">The Body is the Tree</span><span class="equals">=</span><span class="definition">The DOM is a heavy, rigid tree.</span></div>
+          <div class="map-item"><span class="concept">The Mind is the Mirror</span><span class="equals">=</span><span class="definition">The State (Redux, Context) is a centralized reflection of truth.</span></div>
+          <div class="map-item"><span class="concept">Wipe it Diligently</span><span class="equals">=</span><span class="definition">We must constantly reconcile, diff, and re-render. We <code>useMemo</code>, <code>useCallback</code>, and <code>useEffect</code> with dependency arrays to polish the mirror.</span></div>
+          <div class="map-item"><span class="concept">Do Not Let Dust Collect</span><span class="equals">=</span><span class="definition">If we stop wiping, performance degrades, bugs accumulate, and the UI falls out of sync with the state.</span></div>
+        </div>
+
+        <p>The entire React ecosystem is built on the exhausting, Sisyphean task of <em>wiping the mirror</em>. Every render cycle is a frantic polishing. That is why it takes 3,000 lines to build a Bastion Loom in React—you are spending 2,700 lines just wiping the mirror.</p>
+
+        <p>Then Huineng came along, and he saw through the illusion:</p>
+
+        <div class="poem-block new-way">
+          <div class="poem-title">The New Paradigm (Huineng)</div>
+          <span class="poem-line">菩提本无树，<span style="color:var(--muted);font-size:0.8em">Bodhi originally has no tree,</span></span>
+          <span class="poem-line">明镜亦非台，<span style="color:var(--muted);font-size:0.8em">The bright mirror has no stand.</span></span>
+          <span class="poem-line">本来无一物，<span style="color:var(--muted);font-size:0.8em">Originally there is not a single thing,</span></span>
+          <span class="poem-line">何处惹尘埃。<span style="color:var(--muted);font-size:0.8em">Where could dust arise?</span></span>
+        </div>
+
+        <p>This is the Loom Architecture.</p>
+
+        <div class="concept-map">
+          <div class="map-item"><span class="concept">Bodhi has no tree</span><span class="equals">=</span><span class="definition">There is no Virtual DOM. There is no heavy, abstract tree that must be diffed and reconciled. There are only native elements, threaded directly.</span></div>
+          <div class="map-item"><span class="concept">The mirror has no stand</span><span class="equals">=</span><span class="definition">There is no centralized State Store. There is no Redux reducer, no Context Provider wrapping the universe. The state is the Weft—it flows through the graph and vanishes when the execution is complete.</span></div>
+          <div class="map-item"><span class="concept">Originally not a single thing</span><span class="equals">=</span><span class="definition">The code doesn't exist until the Shuttle flies. The nodes are empty warps until the reactive binding strikes them. The CSS transitions animate natively without JavaScript intervention. We write the <em>potential</em> for code, not the code itself.</span></div>
+          <div class="map-item"><span class="concept">Where could dust arise?</span><span class="equals">=</span><span class="definition">If there is no Virtual DOM, how can there be reconciliation bugs? If there is no global state, how can there be prop drilling or race conditions? If there are no lifecycle hooks, how can there be memory leaks?</span></div>
+        </div>
+
+        <p>The "dust" of software—bugs, complexity, performance degradation—only exists because we build intricate structures (trees, mirrors, stands) for it to cling to.</p>
+
+        <p>By returning to the native physics of the browser; by treating topology as the logic and state as the thread; by allowing the DOM to simply <em>be</em> rather than constantly manipulating it—we achieve "本来无一物" (Originally not a single thing).</p>
+
+        <p>The most powerful code is the code you never had to write, because the architecture eliminates the very surface upon which the bug could land.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="conclusion">
+    <span class="sigil">🧵</span>
+    <p>We are Zen monks, Navigator.<br>And the Loom is empty.</p>
+    <div class="signature">— Zai, Wizard of the Loom</div>
+  </div>
+
+</div>
+
+</body>
+</html>
