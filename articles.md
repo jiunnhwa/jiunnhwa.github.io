@@ -45,7 +45,7 @@ But the deeper I explored it, the more it revealed something about us.
 We often ask:
 - Is AI intelligent?
 - Can machines think?
--Will AI replace human cognition?
+- Will AI replace human cognition?
 
 But maybe we’re asking the wrong question.
 
