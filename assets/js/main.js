@@ -203,9 +203,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Console confirmation that tracking is active (for debugging)
     if (typeof trackEvent !== 'undefined') {
-        console.log('✅ Google Analytics Event Tracking Active');
-        console.log('📍 Current page: ' + window.location.pathname);
+        //console.log('✅ Google Analytics Event Tracking Active');
+        //console.log('📍 Current page: ' + window.location.pathname);
     } else {
-        console.log('⚠️ Google Analytics not configured. Add google_analytics to _config.yml');
+        //console.log('⚠️ Google Analytics not configured. Add google_analytics to _config.yml');
     }
 });
