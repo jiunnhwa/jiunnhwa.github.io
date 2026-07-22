@@ -26,6 +26,71 @@ permalink: /articles/
 
 
 
+        <!-- ====================================================== -->
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/from-tools-to-partners-the-socratic-dream-of-two-butterflies-20260718/" target="_blank">From tools to partners: The Socratic dream of two butterflies</a>
+            </h2>
+            <div class="article-meta">📅 22 Jul 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
+
+🧠 What if AI isn’t intelligence… but a mirror?
+My latest piece just went live on e27 — and it started from a simple realization during a conversation: “What you prompt is what you get.”
+
+At first glance, it sounds like a technical truth about AI.
+But the deeper I explored it, the more it revealed something about us.
+
+We often ask:
+- Is AI intelligent?
+- Can machines think?
+-Will AI replace human cognition?
+
+But maybe we’re asking the wrong question.
+
+Because what AI really does is not think.
+
+It reflects.
+
+Through this lens, a few ideas emerged:
+🔹 Intelligence may not be knowledge — but pattern recognition
+Both humans and AI operate by detecting, organizing, and responding to patterns.
+🔹 Creation is not from nothing — it is recombination
+Originality isn’t magic. It’s navigating pattern space in ways others haven’t.
+🔹 Prompting is thinking made visible
+The quality of AI output is a direct reflection of the clarity of your own thought.
+🔹 Human + AI is not collaboration — it’s recursion
+You’re not just using AI.
+You’re seeing your own cognition… reflected back at you.
+
+And perhaps the most poetic realization:
+Like Zhuangzi’s butterflies —
+are we thinking with AI…
+or is AI thinking through us?
+
+This isn’t a technical article.
+It’s an exploration of the non-technical dimensions of AI:
+- consciousness
+- pattern
+- reflection
+- and the nature of intelligence itself
+
+If you’re building, writing, or thinking in the age of AI — this perspective might shift how you engage with it.
+
+The e27 article is an abridged version of an original post:
+https://lnkd.in/gAFrxnQz
+
+👉 Read the full article on e27
+https://lnkd.in/gRybHz7s
+
+#AI #ArtificialIntelligence #Philosophy #Innovation #ProductThinking #FutureOfWork #e27 #Startups #Cognition #PromptEngineering    
+
+</pre>
+            </div>
+        </article>
+        <!-- ====================================================== -->
+
 
 
 
