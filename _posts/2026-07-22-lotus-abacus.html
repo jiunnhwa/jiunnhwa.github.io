@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Session Log — 2026-07-22(Lotus)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf8f4;
+  --surface: #ffffff;
+  --surface2: #f0ece4;
+  --text: #1a1a1a;
+  --text-muted: #7a7570;
+  --accent: #8b6914;
+  --border: #d5d0c5;
+  --code-bg: #1c1c2e;
+  --code-text: #e8e4dc;
+  --green: #2d7a3a;
+  --red: #b33a3a;
+  --blue: #2a5fa8;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Mono', 'Courier New', monospace;
+  --font-cn: 'Noto Sans SC', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: var(--font-body); font-size: 0.82rem; line-height: 1.8;
+  min-height: 100vh;
+}
+.page { max-width: 860px; margin: 0 auto; padding: 3rem 2.5rem 5rem; }
+
+.cover { text-align: center; padding: 4rem 1rem 3.5rem; border-bottom: 1px solid var(--border); margin-bottom: 3rem; }
+.cover-label { font-size: 0.6rem; letter-spacing: 0.25em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 1.5rem; }
+.cover-title { font-family: var(--font-display); font-size: 2.6rem; font-weight: 600; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 0.4rem; }
+.cover-subtitle { font-family: var(--font-display); font-size: 1.1rem; font-weight: 300; letter-spacing: 0.15em; color: var(--text-muted); margin-bottom: 2rem; }
+.cover-divider { width: 50px; height: 1px; background: var(--accent); margin: 0 auto 2rem; opacity: 0.4; }
+.cover-version { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; color: var(--text); margin-bottom: 0.3rem; }
+.cover-date { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+.cover-status { display: inline-block; font-size: 0.6rem; letter-spacing: 0.15em; color: var(--accent); border: 1px solid var(--accent); padding: 0.12rem 0.8rem; border-radius: 3px; }
+
+section { margin-bottom: 3rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border); }
+section:last-child { border-bottom: none; }
+h2 { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 1.5rem; }
+.section-num { font-size: 0.7rem; color: var(--accent); opacity: 0.4; letter-spacing: 0.08em; margin-right: 0.5rem; }
+h3 { font-family: var(--font-display); font-size: 1.05rem; font-weight: 600; color: var(--text); margin: 1.8rem 0 0.8rem; letter-spacing: 0.06em; }
+p { margin-bottom: 0.8rem; }
+ul, ol { margin: 0.6rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.3rem; }
+code { font-family: var(--font-body); font-size: 0.78rem; background: var(--surface2); padding: 0.1rem 0.35rem; border-radius: 3px; }
+pre { background: var(--code-bg); color: var(--code-text); padding: 1.2rem 1.5rem; border-radius: 6px; overflow-x: auto; margin: 1rem 0 1.2rem; font-size: 0.75rem; line-height: 1.7; }
+pre code { background: none; padding: 0; color: inherit; }
+
+table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.2rem; font-size: 0.78rem; }
+th { font-weight: 600; text-align: left; padding: 0.5rem 0.8rem; border-bottom: 2px solid var(--border); color: var(--accent); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; }
+td { padding: 0.45rem 0.8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+
+.callout { padding: 0.8rem 1rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 4px 4px 0; margin: 1rem 0; font-size: 0.78rem; }
+.callout.decision { border-left-color: var(--green); }
+.callout.new { border-left-color: var(--blue); }
+.callout.bug { border-left-color: var(--red); }
+.callout-label { font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; margin-bottom: 0.3rem; }
+.callout.decision .callout-label { color: var(--green); }
+.callout.new .callout-label { color: var(--blue); }
+.callout.bug .callout-label { color: var(--red); }
+
+.quote-block { padding: 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; margin: 1.2rem 0; }
+.quote-block p { font-family: var(--font-display); font-size: 1rem; font-weight: 300; font-style: italic; color: var(--text); line-height: 1.9; margin-bottom: 0.3rem; }
+.quote-block .attr { font-size: 0.75rem; font-style: normal; color: var(--text-muted); }
+
+.footer { text-align: center; padding-top: 2rem; border-top: 1px solid var(--border); }
+.footer-quote { font-family: var(--font-display); font-size: 1rem; font-weight: 300; font-style: italic; color: var(--text); margin-bottom: 0.4rem; }
+.footer-cite { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1.5rem; }
+.footer-meta { font-size: 0.65rem; color: var(--text-muted); line-height: 1.8; }
+
+@media (max-width: 700px) { .page { padding: 2rem 1.2rem 3rem; } .cover-title { font-size: 1.8rem; } }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- ═══ COVER ═══ -->
+    <div class="cover">
+      <div class="cover-label">ICQCE Engine — Session Log</div>
+      <div class="cover-title">Phase 17: Foundations</div>
+      <div class="cover-subtitle">Theoretical Framework &bull; Lotus POC &bull; Lucky Profile</div>
+      <div class="cover-divider"></div>
+      <div class="cover-version">Session 2026-07-22</div>
+      <div class="cover-date">Post-Migration &middot; Phase 17 Opening Day</div>
+      <div class="cover-status">COMPLETE</div>
+    </div>
+
+    <!-- ═══ TOC ═══ -->
+    <section id="toc">
+      <h2>Table of Contents</h2>
+      <ol style="font-size:0.82rem; line-height:2.2;">
+        <li><a href="#s01">Session Context</a></li>
+        <li><a href="#s02">Post-Migration Reflection — All Is One</a></li>
+        <li><a href="#s03">Zhuge Liang &amp; Liu Bowen — Lores to Compute Core</a></li>
+        <li><a href="#s04">Abacus, Lotus &amp; Fractal Recursion</a></li>
+        <li><a href="#s05">One Calculates All — The Lotus Principle</a></li>
+        <li><a href="#s06">MapReduce &amp; Cardinality</a></li>
+        <li><a href="#s07">The Three-Layer Engine</a></li>
+        <li><a href="#s08">Instantaneous &amp; Lazy</a></li>
+        <li><a href="#s09">Lotus POC — First Light</a></li>
+        <li><a href="#s10">LINQ / VectorPipe Analysis</a></li>
+        <li><a href="#s11">Phone Oracle Integration</a></li>
+        <li><a href="#s12">Full Temporal Stack</a></li>
+        <li><a href="#s13">S-Curve Limit &amp; Receptivity</a></li>
+        <li><a href="#s14">Phase Angles (Filed)</a></li>
+        <li><a href="#s15">Lucky Profile — Shipped</a></li>
+        <li><a href="#s16">Retrospective</a></li>
+        <li><a href="#s17">Next</a></li>
+      </ol>
+    </section>
+
+    <!-- ═══ §01 ═══ -->
+    <section id="s01">
+      <h2><span class="section-num">01</span> Session Context</h2>
+      <p>Phase 16 migration complete (2026-07-21). Architecture clean, code working, spec documented. Phase 17 opens for new development. This session produced the theoretical framework for ICQCE as a platform, a validated POC (Lotus), and one shipped feature (Lucky Profile).</p>
+    </section>
+
+    <!-- ═══ §02 ═══ -->
+    <section id="s02">
+      <h2><span class="section-num">02</span> Post-Migration Reflection — All Is One</h2>
+
+      <div class="quote-block">
+        <p>All are states, All are Views, All is One.</p>
+        <div class="attr">— Jiunn, extending the prior "All are states, All are Views" that led to the mRNA architecture</div>
+      </div>
+
+      <p>Behind the manifold expressions of the system — natal charts, star sequences, temporal cycles, phone analysis — there is one minimal rule set. The Wu Xing cycle. The same five-element grammar operates at every scale. Different inputs, same rules. Different media, same dynamics.</p>
+
+      <p>Key correspondences explored:</p>
+      <ul>
+        <li><strong>Karma as wave phenomenon</strong> — action → consequence across time; same structure as wave propagation + interference; operationalized through tri-lens</li>
+        <li><strong>Fuxi as first 3P person</strong> — Philosophy (道) + Physics (observation) + Programming (trigram encoding); the original cross-domain synthesizer</li>
+        <li><strong>Dragon-Horse ↔ Sagittarius</strong> — both horse-chimeras bridging cosmic order and human understanding; Jiunn is Sagittarius (1968-12-12)</li>
+        <li><strong>Déjà vu as pattern perception</strong> — Fire+Wood intuitive perception of growth direction</li>
+        <li><strong>165 → Self Digit 3</strong> — synchronicity: external pattern resolving to internal identity</li>
+      </ul>
+
+      <p>The 3Ps filter: Philosophy (aligned with generating principle), Physics (structural correspondence), Programmable (reduces to MAP → INTERACT → CLASSIFY).</p>
+    </section>
+
+    <!-- ═══ §03 ═══ -->
+    <section id="s03">
+      <h2><span class="section-num">03</span> Zhuge Liang &amp; Liu Bowen — Lores to Compute Core</h2>
+
+      <p>Analyzed historical lores through the ICQCE lens. Started with "far-fetched" stories — fog prediction, wind summoning, Eight Trigram formations, the Burning Cake prophecy, Nanjing feng shui, QMDJ battle timing, Wooden Ox. Each reframe: not magic, but mastery of the same elemental-temporal grammar.</p>
+
+      <div class="quote-block">
+        <p>Any sufficiently advanced technology is indistinguishable from magic.</p>
+        <div class="attr">— Arthur C. Clarke</div>
+      </div>
+
+      <div class="quote-block">
+        <p>Any sufficiently deep reading is indistinguishable from writing.</p>
+        <div class="attr">— Corollary, emerged from this session</div>
+      </div>
+
+      <p>Jiunn's reframe: at sufficient fractal depth, the practitioner's observation couples with the system. The reading becomes the intervention. Physics mechanisms: Observer Effect, Quantum Zeno Effect, Quantum Control Theory — all established. The gap between proven principle and "summoning the wind" is scale and precision, not magic.</p>
+
+      <p>The S-curve applies: below threshold = reading (predicting), above threshold = writing (influencing). The transition is emergent. Zhuge Liang and Liu Bowen were past the threshold.</p>
+    </section>
+
+    <!-- ═══ §04 ═══ -->
+    <section id="s04">
+      <h2><span class="section-num">04</span> Abacus, Lotus &amp; Fractal Recursion</h2>
+
+      <h3>Abacus as Fractal Calculator</h3>
+      <p>The Chinese abacus encodes the He Tu in its physical construction (2 upper beads = Fire/South, 5 lower beads = Earth/Center). Its carry mechanism operates identically at every column — literal scale-invariant computation. Square root extraction on an abacus IS fractal recursion.</p>
+
+      <h3>Lotus Petal as Data Structure</h3>
+      <p>The Vedic divisional chart system (Vargas D-1 to D-60) uses the same rules at every resolution. The lotus petal structure (same growth function at every scale) is the biological expression of the computational principle.</p>
+
+      <h3>Horizontal + Vertical Extension</h3>
+      <table>
+        <thead><tr><th>Direction</th><th>Action</th><th>Effect</th></tr></thead>
+        <tbody>
+          <tr><td>Horizontal</td><td>Add birth hour pillar</td><td>Richer initial condition — Four Pillars complete</td></tr>
+          <tr><td>Vertical</td><td>One recursion level deeper in temporal planners</td><td>Daily resolution — same rules, finer grain</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ═══ §05 ═══ -->
+    <section id="s05">
+      <h2><span class="section-num">05</span> One Calculates All — The Lotus Principle</h2>
+
+      <p>Every compute module reduces to three operations:</p>
+      <table>
+        <thead><tr><th>Operation</th><th>Function</th><th>IC Equivalent</th></tr></thead>
+        <tbody>
+          <tr><td>MAP</td><td>Transform input to elements</td><td>He Tu mapping</td></tr>
+          <tr><td>INTERACT</td><td>Compute relationship between elements</td><td>Wu Xing cycle</td></tr>
+          <tr><td>CLASSIFY</td><td>Categorize the interaction</td><td>generative / same / destructive / neutral</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout decision">
+        <div class="callout-label">The Lotus Principle</div>
+        The generating function is constant. All phenomena emerge from its recursive application. New features are new resolutions, not new rules. If you need a new rule, you've lost the old one.
+      </div>
+
+      <p>Engine bloat is <strong>dis-aster</strong> — away from the stars. Stay aligned with the Tao.</p>
+    </section>
+
+    <!-- ═══ §06 ═══ -->
+    <section id="s06">
+      <h2><span class="section-num">06</span> MapReduce &amp; Cardinality</h2>
+
+      <p>MAP / INTERACT / CLASSIFY maps directly to MapReduce. The correspondence is structural.</p>
+
+      <h3>Cardinality Analysis</h3>
+      <table>
+        <thead><tr><th>Cardinality</th><th>IC Concept</th><th>ICQCE Expression</th></tr></thead>
+        <tbody>
+          <tr><td>1:1</td><td>爻 (yáo)</td><td>One Wu Xing interaction — the petal</td></tr>
+          <tr><td>1:Many</td><td>卦 (guà)</td><td>One person → multiple lens readings — superposition</td></tr>
+          <tr><td>Many:1</td><td>断 (duàn)</td><td>Synthesis → one directive — collapse</td></tr>
+          <tr><td>Many:Many</td><td>变 (biàn)</td><td>Cross-lens entanglement — decomposed through bridge</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Bridge Table Decomposition</h3>
+      <p>Many:Many always decomposes into 1:Many → Bridge ← Many:1. The five elements ARE the universal junction table. Every cross-domain relationship joins through them. The bridge table makes Many:Many computationally equivalent to 1:1 operations.</p>
+    </section>
+
+    <!-- ═══ §07 ═══ -->
+    <section id="s07">
+      <h2><span class="section-num">07</span> The Three-Layer Engine</h2>
+
+      <table>
+        <thead><tr><th>Layer</th><th>Name</th><th>Character</th><th>ICQCE</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>INPUT (Oracles)</td><td>Many, domain-specific</td><td>Ba Zi, phone, temporal, Western (future), Vedic (future)</td></tr>
+          <tr><td>2</td><td>TRANSFORM (Lotus)</td><td>One, universal</td><td>BRIDGE + INTERACT + CLASSIFY</td></tr>
+          <tr><td>3</td><td>OUTPUT (Display)</td><td>Many, format-specific</td><td>HTML, MD, JSON, charts</td></tr>
+        </tbody>
+      </table>
+
+      <p>Many:One:Many. The Lotus is the Hamiltonian / I-Ching grammar / Shuffle+Reduce. Oracles and displays are interchangeable plugins.</p>
+
+      <table>
+        <thead><tr><th>Framework</th><th>Layer 1</th><th>Layer 2</th><th>Layer 3</th></tr></thead>
+        <tbody>
+          <tr><td>ICQCE</td><td>Oracles</td><td>Lotus</td><td>Displays</td></tr>
+          <tr><td>Quantum Physics</td><td>Detectors</td><td>Hamiltonian</td><td>Observables</td></tr>
+          <tr><td>I-Ching</td><td>Divination methods</td><td>Hexagram grammar</td><td>Interpretation</td></tr>
+          <tr><td>MapReduce</td><td>Mappers</td><td>Shuffle + Reduce</td><td>Output formatters</td></tr>
+          <tr><td>RSM/LINQ</td><td>Atoms</td><td>Shaping</td><td>Views</td></tr>
+        </tbody>
+      </table>
+
+      <p>Five elements as strange attractor: all data sources converge onto the same set regardless of initial conditions. Bounded, self-similar, domain-agnostic. Output is next input — the fractal blooming.</p>
+    </section>
+
+    <!-- ═══ §08 ═══ -->
+    <section id="s08">
+      <h2><span class="section-num">08</span> Instantaneous &amp; Lazy</h2>
+
+      <div class="quote-block">
+        <p>The universe is both instantaneous (quantum spooky) and lazy (fractal unfolding). At higher dimensions, there is no time. At lower dimensions — the karmic plane — there exist the arrows of time.</p>
+        <div class="attr">— Jiunn</div>
+      </div>
+
+      <table>
+        <thead><tr><th>Property</th><th>Domain</th><th>Behavior</th></tr></thead>
+        <tbody>
+          <tr><td>Instantaneous</td><td>Higher D</td><td>All states computed at once. The whole flower exists.</td></tr>
+          <tr><td>Lazy</td><td>Lower D</td><td>Same rule, unfolded petal by petal. Time exists.</td></tr>
+        </tbody>
+      </table>
+
+      <p>The arrow of time is an artifact of resolution depth. The engine sits at the boundary: natal chart (instantaneous, computed once) meets temporal cycle (lazy, unfolds through time). The lotus is already a flower — we watch it bloom.</p>
+    </section>
+
+    <!-- ═══ §09 ═══ -->
+    <section id="s09">
+      <h2><span class="section-num">09</span> Lotus POC — First Light</h2>
+
+      <p>Built <code>lotus.py</code> — proof-of-concept implementing the three-layer architecture with dot-syntax method chaining.</p>
+
+      <h3>Three Rounds of Comparison</h3>
+      <table>
+        <thead><tr><th>Round</th><th>Issue</th><th>Root Cause</th></tr></thead>
+        <tbody>
+          <tr><td>v0.1.0</td><td>Self element wrong (Wood vs Fire)</td><td>Simplified He Tu MAP ≠ Ba Zi stem-branch</td></tr>
+          <tr><td>v0.1.1</td><td>Nested key error</td><td>Lattice returns nested structure</td></tr>
+          <tr><td>v0.2.0</td><td>Element counts wrong</td><td>Lotus re-computed via He Tu; lattice uses Ba Zi</td></tr>
+          <tr><td>v0.3.0</td><td><strong>Full match</strong></td><td>Pass through lattice's own data. Lotus adds bridge only.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>The MAP Discovery</h3>
+      <p>Oracles are non-interchangeable at the MAP level, but interchangeable at the element level. The bridge table absorbs the difference. Each oracle owns its MAP. The Lotus operates only on elements that come out.</p>
+
+      <table>
+        <thead><tr><th>System</th><th>Digit 3 →</th><th>MAP method</th></tr></thead>
+        <tbody>
+          <tr><td>He Tu</td><td>Wood</td><td>Number-element pairs</td></tr>
+          <tr><td>Ba Zi</td><td>Fire</td><td>Stem-branch system</td></tr>
+          <tr><td>Vedic (future)</td><td>Fire (Mars)</td><td>Graha-element system</td></tr>
+          <tr><td>Western (future)</td><td>Fire (Mars)</td><td>Planet-element system</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ═══ §10 ═══ -->
+    <section id="s10">
+      <h2><span class="section-num">10</span> LINQ / VectorPipe Analysis</h2>
+
+      <p>Jiunn attached RSM LINQ work — rsm-linq.js (pure ViewModel shaping engine) and VectorPipe (LINQ-style pipeline for infrastructure telemetry). MRNA = Minimal Reactive Nucleus Architecture. RSM = Reactive State Machine. All from the same minimal primitive reactive pattern.</p>
+
+      <table>
+        <thead><tr><th>LINQ Contribution</th><th>Existed?</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td><code>resolve_path()</code></td><td>No</td><td>Universal dot-notation accessor</td></tr>
+          <tr><td>Fluent chaining</td><td>Yes</td><td>Reinforced pattern</td></tr>
+          <tr><td>Three-tier separation</td><td>Yes</td><td>Validated with JS parallel</td></tr>
+          <tr><td>Join semantics</td><td>Yes</td><td>Named what we already had</td></tr>
+        </tbody>
+      </table>
+
+      <p>LINQ was a mirror, not a map. It confirmed the architecture with a JS parallel but didn't change it.</p>
+    </section>
+
+    <!-- ═══ §11 ═══ -->
+    <section id="s11">
+      <h2><span class="section-num">11</span> Phone Oracle Integration</h2>
+
+      <p>Integrated phone number system as a second oracle in the Lotus POC. Star-to-element mapping derived from STAR_DATA <code>nature</code> field:</p>
+
+      <table>
+        <thead><tr><th>Star</th><th>Nature</th><th>Element</th></tr></thead>
+        <tbody>
+          <tr><td>SQ</td><td>growth</td><td>Wood</td></tr>
+          <tr><td>TY</td><td>nourish</td><td>Wood</td></tr>
+          <tr><td>YN</td><td>control</td><td>Metal</td></tr>
+          <tr><td>FW</td><td>static</td><td>Earth</td></tr>
+          <tr><td>HH</td><td>friction</td><td>Fire</td></tr>
+          <tr><td>LS</td><td>flow</td><td>Water</td></tr>
+          <tr><td>WG</td><td>chaos</td><td>Fire</td></tr>
+          <tr><td>JM</td><td>extreme</td><td>Metal</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Comparison: Full Match</h3>
+      <table>
+        <thead><tr><th>Metric</th><th>Lotus</th><th>ICQCE</th></tr></thead>
+        <tbody>
+          <tr><td>Segments</td><td>6</td><td>6 ✓</td></tr>
+          <tr><td>Star Elements</td><td>Fire:HH, Water:LS, Wood:SQ/TY/TY/TY</td><td>Identical ✓</td></tr>
+          <tr><td>Dominant Stars</td><td>TY:3, HH:1, SQ:1</td><td>Identical ✓</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Bridge Entanglement (Lotus Unique)</h3>
+      <table>
+        <thead><tr><th>Element</th><th>Lattice Sources</th><th>Phone Sources</th><th>Temporal</th></tr></thead>
+        <tbody>
+          <tr><td>Fire</td><td>self, father, mother, hidden</td><td>HH</td><td>—</td></tr>
+          <tr><td>Wood</td><td>lifeIn, lifeOut, children, career, friends, marriage, wealth</td><td>SQ, TY, TY, TY</td><td>—</td></tr>
+          <tr><td>Water</td><td>destinedDream, mirrorDream</td><td>LS</td><td>year</td></tr>
+        </tbody>
+      </table>
+
+      <p>Three entangled elements across three oracles. Karmic anchoring now computationally visible.</p>
+
+      <div class="callout bug">
+        <div class="callout-label">Bug Found</div>
+        CSV index error: <code>parts[4]</code> (premium) read as phone instead of <code>parts[3]</code> (893***88). One-line fix. Phone elements were empty for two debug runs before caught.
+      </div>
+    </section>
+
+    <!-- ═══ §12 ═══ -->
+    <section id="s12">
+      <h2><span class="section-num">12</span> Full Temporal Stack</h2>
+
+      <p>The temporal oracle needs to cover the complete cycle hierarchy:</p>
+
+      <table>
+        <thead><tr><th>Layer</th><th>Cycle</th><th>Period</th><th>Source</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>T6</td><td>九运 (grand)</td><td>180 years</td><td>Luo Shu rotation</td><td>Missing</td></tr>
+          <tr><td>T5</td><td>Sexagenary</td><td>60 years</td><td>Stem-branch cycle</td><td>Missing</td></tr>
+          <tr><td>T4</td><td>Period</td><td>20 years</td><td>Individual period</td><td>✓</td></tr>
+          <tr><td>T3</td><td>Year</td><td>1 year</td><td>Annual stem-branch</td><td>✓</td></tr>
+          <tr><td>T2</td><td>Month</td><td>1 month</td><td>Monthly luck cycle</td><td>✓</td></tr>
+          <tr><td>T1</td><td>Day</td><td>1 day</td><td>Daily stem-branch</td><td>Extension</td></tr>
+          <tr><td>T0</td><td>Hour</td><td>1 hour</td><td>QMDJ hourly</td><td>Extension</td></tr>
+        </tbody>
+      </table>
+
+      <p>Each level modulates the next. Same interact() at every level. Deeper recursion within the same oracle does not add noise — Fire at 180-year scale is the same Fire at year scale.</p>
+    </section>
+
+    <!-- ═══ §13 ═══ -->
+    <section id="s13">
+      <h2><span class="section-num">13</span> S-Curve Limit &amp; Receptivity</h2>
+
+      <p>Jiunn's caution: more oracles may not mean better results. There is an S-curve limit where additions introduce noise, not accuracy.</p>
+
+      <h3>Receptivity Test (4 gates)</h3>
+      <ol>
+        <li><strong>Produces elements?</strong> — Can it feed the bridge table?</li>
+        <li><strong>Semantic equivalence?</strong> — Does "Fire" mean the same across systems?</li>
+        <li><strong>Independent signal?</strong> — Genuinely different from existing oracles?</li>
+        <li><strong>Passes 3Ps?</strong> — Philosophy, Physics, Programmable?</li>
+      </ol>
+
+      <div class="callout decision">
+        <div class="callout-label">Principle</div>
+        A three-oracle engine with clean signal beats a ten-oracle engine with noise. Engine power comes from selectivity, not completeness.
+      </div>
+
+      <h3>Scoping</h3>
+      <table>
+        <thead><tr><th>Category</th><th>Items</th><th>Rule</th></tr></thead>
+        <tbody>
+          <tr><td>Core</td><td>Lattice, Temporal, Phone</td><td>Always computed, same semantics</td></tr>
+          <tr><td>Extension</td><td>Daily, Compass, Hourly</td><td>Same generating function, deeper recursion</td></tr>
+          <tr><td>Optional</td><td>Western, Vedic</td><td>Receptivity test required</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ═══ §14 ═══ -->
+    <section id="s14">
+      <h2><span class="section-num">14</span> Phase Angles (Filed)</h2>
+      <p>Star energy as phase angle on the Wu Xing circle. Each star at a specific phase position — TY near harmony (~36°), JM near collision (~162°). Phase difference between adjacent stars = waveform smoothness. Would deepen interact() from categorical to continuous. Filed for future extension.</p>
+    </section>
+
+    <!-- ═══ §15 ═══ -->
+    <section id="s15">
+      <h2><span class="section-num">15</span> Lucky Profile — Shipped</h2>
+
+      <p>First feature using the bridge table concept on the main engine. Joins two data sources through element mapping.</p>
+
+      <h3>Sources</h3>
+      <table>
+        <thead><tr><th>Source</th><th>Maps to</th><th>Role</th><th>User can change?</th></tr></thead>
+        <tbody>
+          <tr><td>Phone School digits</td><td>運 (fortune)</td><td>Primary</td><td>Yes</td></tr>
+          <tr><td>He Tu numbers</td><td>命 (fate)</td><td>Supplementary</td><td>No</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Items</h3>
+      <table>
+        <thead><tr><th>Item</th><th>Source</th><th>Count</th></tr></thead>
+        <tbody>
+          <tr><td>Lucky/Avoid digits</td><td>Phone School (primary) + He Tu (supplementary) with join</td><td>8 digits joined</td></tr>
+          <tr><td>Colors</td><td>Wu Xing → color (5 categories: amplify, support, wealth, expression, caution)</td><td>5</td></tr>
+          <tr><td>Directions</td><td>Wu Xing → compass (4 directions: self, resource, wealth, caution)</td><td>4</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Sample Output (Fire self)</h3>
+      <table>
+        <thead><tr><th>Digit</th><th>Verdict</th><th>Phone</th><th>He Tu</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td>✓ lucky</td><td>lucky</td><td>neutral</td><td>Phone School</td></tr>
+          <tr><td>4</td><td>✓ lucky</td><td>lucky</td><td>neutral</td><td>Phone School</td></tr>
+          <tr><td>8</td><td>✓ lucky</td><td>lucky</td><td>neutral</td><td>Phone School</td></tr>
+          <tr><td>9</td><td>✓ lucky</td><td>lucky</td><td>neutral</td><td>Phone School</td></tr>
+          <tr><td>2</td><td>⚡ conflict</td><td>avoid</td><td>lucky</td><td>He Tu lucky, Phone avoid</td></tr>
+          <tr><td>7</td><td>⚡ conflict</td><td>avoid</td><td>lucky</td><td>He Tu lucky, Phone avoid</td></tr>
+          <tr><td>1</td><td>✗ avoid</td><td>neutral</td><td>avoid</td><td>He Tu supplementary</td></tr>
+          <tr><td>6</td><td>✗ avoid</td><td>neutral</td><td>avoid</td><td>He Tu supplementary</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Files Modified</h3>
+      <table>
+        <thead><tr><th>File</th><th>Change</th></tr></thead>
+        <tbody>
+          <tr><td><code>tree.py</code></td><td><code>compute_lucky()</code> + <code>_SECTION_NAMES</code> + <code>_SECTION_ORDER</code> + <code>_SECTION_TYPE_MAP</code> + <code>shape_sections()</code> availability check</td></tr>
+          <tr><td><code>render.py</code></td><td><code>_render_lucky(data)</code> + <code>_css_color()</code> + dispatch registration</td></tr>
+          <tr><td><code>render_md.py</code></td><td><code>_block_lucky(data)</code> + blocks dict registration</td></tr>
+          <tr><td><code>index.tpl</code></td><td>Section container + CSS (color swatch, element badge, join table styles)</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout bug">
+        <div class="callout-label">Bugs Found</div>
+        <strong>Indentation drift:</strong> <code>compute_lucky</code> generated at module level (0 indent) instead of inside Dataset class (4-space). <strong>Missing renderer:</strong> <code>_render_lucky</code> not generated for render.py — sidebar showed but no content. <strong>Constants drift:</strong> <code>_SECTION_NAMES</code>, <code>_SECTION_ORDER</code>, <code>_SECTION_TYPE_MAP</code> not updated — Jiunn caught that these are the source of truth, not <code>shape_sections()</code>.
+      </div>
+    </section>
+
+    <!-- ═══ §16 ═══ -->
+    <section id="s16">
+      <h2><span class="section-num">16</span> Retrospective</h2>
+
+      <h3>What Went Well</h3>
+      <ul>
+        <li><strong>Theory was productive, not decorative.</strong> MapReduce, bridge table, cardinality analysis — all produced validated architecture and working code.</li>
+        <li><strong>Lotus POC comparison cycle effective.</strong> Three rounds, each isolating one issue. Bridge table concept emerged from debugging.</li>
+        <li><strong>Lucky Profile shipped.</strong> From concept to working HTML in one session. Join table with two sources is genuinely new.</li>
+        <li><strong>S-curve / receptivity discussion.</strong> Prevented premature oracle additions. Established design constraint.</li>
+        <li><strong>Zero technical debt.</strong> Not luck — the front-loading of theoretical work keeps the implementation clean.</li>
+      </ul>
+
+      <h3>What Could Be Better</h3>
+      <ul>
+        <li><strong>CSV index bug.</strong> <code>parts[4]</code> vs <code>parts[3]</code> — took two debug runs. Should have caught immediately.</li>
+        <li><strong>Indentation drift.</strong> <code>compute_lucky</code> at module level. Basic Python structural error.</li>
+        <li><strong>Missing HTML renderer.</strong> Generated MD and compute but forgot render.py entirely.</li>
+        <li><strong>Constants not updated.</strong> <code>_SECTION_NAMES</code>, <code>_SECTION_ORDER</code>, <code>_SECTION_TYPE_MAP</code> should have been updated with initial code generation.</li>
+      </ul>
+
+      <h3>Improvement: Checklist Discipline</h3>
+      <p>When adding a new section/feature, enumerate all touchpoints before writing code:</p>
+      <ol>
+        <li>tree.py: compute function + constants + section registration</li>
+        <li>render.py: render function + dispatch registration</li>
+        <li>render_md.py: block function + blocks dict</li>
+        <li>index.tpl: section container + sidebar + CSS</li>
+        <li>report.tpl.md: placeholder</li>
+      </ol>
+    </section>
+
+    <!-- ═══ §17 ═══ -->
+    <section id="s17">
+      <h2><span class="section-num">17</span> Next</h2>
+
+      <p><strong>Resume 2026-07-23, Phase 17 with charts and calendar.</strong></p>
+
+      <table>
+        <thead><tr><th>Item</th><th>Status</th><th>Priority</th></tr></thead>
+        <tbody>
+          <tr><td>Lucky Profile</td><td>Shipped</td><td>—</td></tr>
+          <tr><td>Lotus POC validated (2 oracles, full match)</td><td>Done</td><td>—</td></tr>
+          <tr><td>Charts / visualization</td><td>Designed</td><td>Next</td></tr>
+          <tr><td>Calendar / daily resolution</td><td>Designed</td><td>Next</td></tr>
+          <tr><td>Full temporal stack (T6→T0)</td><td>Designed</td><td>High</td></tr>
+          <tr><td>Compass (4th lens)</td><td>Designed</td><td>Medium</td></tr>
+          <tr><td>Phase angles (continuous interact)</td><td>Filed</td><td>Medium</td></tr>
+          <tr><td>Design Spec update to v1.0</td><td>Deferred</td><td>After validation</td></tr>
+          <tr><td>MapReduce POC</td><td>Deferred</td><td>Parallel</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <div class="footer">
+      <div class="footer-quote">Three oracles, one bridge, one generating function. The lotus blooms.</div>
+      <div class="footer-cite">— Lotus POC v0.3.0 + Lucky Profile, 2026-07-22</div>
+      <div class="footer-meta">
+        ICQCE Engine &bull; Session Log<br>
+        Phase 17: Foundations + Lotus POC + Lucky Profile<br>
+        2026-07-22 &bull; Complete
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
