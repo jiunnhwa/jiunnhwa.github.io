@@ -26,6 +26,70 @@ permalink: /articles/
 
 
 
+
+
+        <!-- ====================================================== -->
+        <article class="article-item">
+            <h2 class="article-title">
+                <a href="https://e27.co/the-3cs1-framework-navigating-geopolitical-fragmentation-as-a-founder-20260726/" target="_blank">The 3Cs+1 framework: Navigating geopolitical fragmentation as a founder</a>
+            </h2>
+            <div class="article-meta">📅 30 Jul 2026 | 📍 e27</div>
+            <div class="article-excerpt">
+
+<pre style="background-color: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow-x: auto; white-space: pre-wrap;">
+
+I stopped trying to build products that scale globally by default.
+
+Not because demand disappeared.
+But because the assumptions behind global had changed.
+
+APIs are no longer neutral.
+Data doesn’t move freely.
+Dependencies that once accelerated you can now break you.
+
+What looked like a product decision was actually a response to something bigger:
+👉 We are no longer in an era of pure globalisation.
+👉 We are in an era of constrained globalisation.
+
+For years, the playbook was simple:
+Build once. Scale everywhere.
+Globalisation = horizontal integration at scale.
+
+That world is receding.
+
+What’s emerging instead:
+Selective vertical integration (own what matters)
+Regional horizontal integration (work with aligned partners)
+Systems designed with constraints upfront
+
+This led me to a simple framework I now think about constantly:
+The 3Cs + 1
+Compute (what infrastructure you can access)
+Capital (who funds you—and what that implies)
+Compliance (where you can operate)
+Coordination (your ability to navigate all three)
+
+Constraints are no longer edge cases.
+They are design inputs.
+
+That creates something I’d call: constraint arbitrage.
+
+Not owning everything.
+But navigating fragmentation better than others.
+
+I wrote a deeper piece breaking this down into a full framework + strategy matrix -
+https://lnkd.in/gZrvhDYW
+
+#AI #ArtificialIntelligence #Philosophy #Innovation #ProductThinking #FutureOfWork #e27 #Startups #Cognition #PromptEngineering    
+
+</pre>
+            </div>
+        </article>
+        <!-- ====================================================== -->
+
+        
+
+
         <!-- ====================================================== -->
         <article class="article-item">
             <h2 class="article-title">
