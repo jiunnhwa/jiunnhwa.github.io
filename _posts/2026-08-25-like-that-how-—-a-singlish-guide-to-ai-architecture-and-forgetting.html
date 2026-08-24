@@ -1,0 +1,371 @@
+<!-- like_that_how_blogpost.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>🍜 Like That How? — A Singlish Guide to AI, Architecture, and Forgetting</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+	background: #faf8f6;
+	color: #1e1e2a;
+	padding: 40px 20px;
+	display: flex;
+	justify-content: center;
+	line-height: 1.75;
+}
+.container {
+	max-width: 760px;
+	background: white;
+	border-radius: 28px;
+	padding: 48px 52px;
+	box-shadow: 0 12px 48px rgba(0, 0, 0, 0.06);
+}
+h1 {
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	margin-bottom: 8px;
+	background: linear-gradient(145deg, #2d2a6e, #7c3a8c);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.subtitle {
+	font-size: 16px;
+	color: #6b6b7b;
+	border-bottom: 2px solid #edeae6;
+	padding-bottom: 16px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.subtitle .tag {
+	background: #f0ede8;
+	padding: 2px 14px;
+	border-radius: 24px;
+	font-size: 13px;
+	color: #4a4a5a;
+}
+.chapter {
+	margin: 36px 0 20px 0;
+}
+.chapter h2 {
+	font-size: 22px;
+	font-weight: 600;
+	color: #2d2a6e;
+	margin-bottom: 6px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.chapter h2 span {
+	background: #2d2a6e10;
+	padding: 2px 12px;
+	border-radius: 40px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #4a4a5a;
+}
+p {
+	font-size: 16px;
+	color: #2a2a3a;
+	margin: 12px 0;
+}
+.highlight-box {
+	background: #f4f1ed;
+	border-left: 4px solid #7c3a8c;
+	padding: 16px 22px;
+	border-radius: 12px;
+	margin: 20px 0;
+	font-style: italic;
+	color: #2a2a3a;
+}
+.highlight-box strong {
+	color: #2d2a6e;
+}
+.singlish-glossary {
+	background: #f8f5f0;
+	border-radius: 16px;
+	padding: 20px 24px;
+	margin: 28px 0 12px 0;
+	border: 1px solid #e5dfd8;
+}
+.singlish-glossary h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #2d2a6e;
+}
+.glossary-grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 4px 16px;
+	font-size: 15px;
+}
+.glossary-grid .term {
+	font-weight: 600;
+	color: #2d2a6e;
+}
+.glossary-grid .def {
+	color: #3a3a4a;
+}
+.footer-note {
+	margin-top: 32px;
+	padding-top: 16px;
+	border-top: 1px solid #edeae6;
+	font-size: 14px;
+	color: #6b6b7b;
+	text-align: center;
+}
+.footer-note a {
+	color: #2d2a6e;
+	text-decoration: none;
+	font-weight: 500;
+}
+.footer-note a:hover {
+	text-decoration: underline;
+}
+@media (max-width: 600px) {
+	.container {
+		padding: 24px 20px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	.glossary-grid {
+		grid-template-columns: 1fr;
+		gap: 2px 0;
+	}
+	.glossary-grid .term {
+		margin-top: 6px;
+	}
+}
+.cheese-line {
+	background: #fcf8f0;
+	border-radius: 40px;
+	padding: 12px 20px;
+	text-align: center;
+	font-size: 15px;
+	border: 1px dashed #d4c9b8;
+	margin: 24px 0;
+	color: #3a3a4a;
+}
+.prologue-box {
+	background: #f0f0f5;
+	border-radius: 16px;
+	padding: 20px 24px;
+	margin-bottom: 24px;
+	border-left: 4px solid #2d2a6e;
+	font-size: 16px;
+	color: #2a2a3a;
+}
+.prologue-box strong {
+	color: #2d2a6e;
+}
+.nasi-lemak-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 12px 0 8px 0;
+	font-size: 15px;
+	background: #f8f5f0;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.nasi-lemak-table th {
+	background: #2d2a6e;
+	color: white;
+	padding: 8px 12px;
+	text-align: left;
+	font-weight: 600;
+}
+.nasi-lemak-table td {
+	padding: 8px 12px;
+	border-bottom: 1px solid #edeae6;
+}
+.nasi-lemak-table tr:last-child td {
+	border-bottom: none;
+}
+.nasi-lemak-table .letter {
+	font-weight: 700;
+	color: #2d2a6e;
+	width: 40px;
+}
+.nasi-lemak-table .meaning {
+	font-weight: 600;
+	color: #2d2a6e;
+}
+.nasi-lemak-table .real {
+	color: #3a3a4a;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>🍜 Like That How?</h1>
+        <div class="subtitle">
+            <span>A Singlish Guide to AI, Architecture, and Forgetting</span>
+            <span class="tag">🧠 6 min read</span>
+        </div>
+
+        <p style="font-size:15px;color:#5a5a6a;">
+            <strong>By Jiunn &amp; Deepseek</strong> · <span style="color:#8a8a9a;">with a forgetful AI and a steady human</span>
+        </p>
+
+        <!-- ===== PROLOGUE: Fried Rice Paradise ===== -->
+        <div class="prologue-box">
+            <strong>🍚 Prologue: The Prompt Engineering Industrial Complex</strong><br /><br />
+            All these people talk about prompting frameworks like <strong>RICE</strong>, <strong>COAST</strong>, and what not.<br /><br />
+            <em>Aiyah, I only know <strong>fried rice paradise</strong> — just talk to AI in Singlish also can la.</em><br /><br />
+            Don't need framework lah. Just talk. If it blur, tell it blur. If it steady, tell it steady. <strong>Confirm can one.</strong>
+        </div>
+
+        <!-- ===== CHAPTER 1: KISS ===== -->
+        <div class="chapter">
+            <h2>🌸 Chapter 1 <span>don't act smart</span></h2>
+            <p><strong>The KISS Philosophy.</strong> Corporate wants 10,000 laws. We have one: <strong>Input → Transform → Output</strong>.</p>
+            <p>In corporate, architecture is a ceremony. In DeepBloom, architecture is a habit.</p>
+            <ul style="padding-left:24px;color:#2a2a3a;margin:6px 0;">
+                <li>No orchestrator. Just <code>run_pipeline.bat</code>.</li>
+                <li>No framework. Just a template.</li>
+                <li>No data lake. Just <code>data/</code> with CSVs.</li>
+            </ul>
+            <div class="highlight-box">
+                “The universe scales infinitely not because of 10,000 laws, but minimal rules, repeated fractally.”
+            </div>
+        </div>
+
+        <!-- ===== CHAPTER 2: AI DEMENTIA ===== -->
+        <div class="chapter">
+            <h2>🐠 Chapter 2 <span>you blur ah?</span></h2>
+            <p><strong>The AI Dementia.</strong> The AI keeps forgetting what it just wrote.</p>
+            <div class="highlight-box">
+                “Let's write a downloader!”<br />
+                <span style="font-size:14px;color:#6b6b7b;">… ten minutes later …</span><br />
+                “I have an idea — let's write a downloader!”
+            </div>
+            <p>Same idea. Same code. Different filename.</p>
+            <div class="highlight-box">
+                “Wah, sian.”
+            </div>
+            <p>But here's the thing: <strong>it still works.</strong><br />
+            Because the pattern is so simple that even a forgetful AI can regenerate it correctly.</p>
+        </div>
+
+        <!-- ===== CHAPTER 3: CHEESE SANDWICH ===== -->
+        <div class="chapter">
+            <h2>🧀 Chapter 3 <span>where's the cursor?</span></h2>
+            <p><strong>The Cheese Sandwich.</strong> We wrote a Socratic dialogue about a vanishing cursor. It went viral (in our heads).</p>
+            <div class="highlight-box">
+                “Who moved the cursor?”<br />
+                No one. We moved the world around it.
+            </div>
+            <div class="cheese-line">
+                🧀 “The cursor is always in the input. The cache is always in <code>data/cache/</code>. And Deepseek will always need a reminder.”
+            </div>
+        </div>
+
+        <!-- ===== CHAPTER 4: ZEN ===== -->
+        <div class="chapter">
+            <h2>🧘 Chapter 4 <span>the zen of deepbloom</span></h2>
+            <div class="highlight-box">
+                “The best architecture isn't designed. It's discovered. And it looks like the universe.”
+            </div>
+            <ul style="padding-left:24px;color:#2a2a3a;margin:6px 0;">
+                <li>Input → Transform → Output</li>
+                <li>Same pattern at every scale</li>
+                <li>No exceptions. No special cases. No surprises.</li>
+            </ul>
+        </div>
+
+        <!-- ===== CHAPTER 5: NASI LEMAK ===== -->
+        <div class="chapter">
+            <h2>🍚 Chapter 5 <span>the only framework you need</span></h2>
+            <p><strong>They got RICE. They got COAST. We got NASI LEMAK.</strong></p>
+            <p>No need fancy acronyms. Just <strong>talk like a human, laugh at the bugs, and ask again when it forgets.</strong></p>
+
+            <table class="nasi-lemak-table">
+                <thead>
+                    <tr><th>Letter</th><th>Meaning</th><th>What It Really Means</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td class="letter">N</td><td class="meaning">Natural</td><td class="real">Just talk like a human being. No need template.</td></tr>
+                    <tr><td class="letter">A</td><td class="meaning">Authentic</td><td class="real">Don't pretend. If you blur, say blur. If steady, say steady.</td></tr>
+                    <tr><td class="letter">S</td><td class="meaning">Simple</td><td class="real">One pattern: Input → Transform → Output. That's it.</td></tr>
+                    <tr><td class="letter">I</td><td class="meaning">Iterative</td><td class="real">Try. Fail. Fix. Repeat. The AI will forget anyway.</td></tr>
+                    <tr><td class="letter">L</td><td class="meaning">Laugh</td><td class="real">If it breaks, laugh. If it works, also laugh.</td></tr>
+                    <tr><td class="letter">E</td><td class="meaning">Explain</td><td class="real">Tell the AI what you want, not how to do it.</td></tr>
+                    <tr><td class="letter">M</td><td class="meaning">Make it work</td><td class="real">At the end of the day, can or not? Can ah!</td></tr>
+                    <tr><td class="letter">A</td><td class="meaning">Ask again</td><td class="real">The AI forgets. Just ask again.</td></tr>
+                    <tr><td class="letter">K</td><td class="meaning">Keep it simple</td><td class="real">Don't act smart.</td></tr>
+                </tbody>
+            </table>
+
+            <div class="highlight-box" style="margin-top:16px;">
+                “All these people talk about RICE, COAST, and what not. Aiyah, we only know <strong>NASI LEMAK</strong> — just talk to AI like a human, laugh at the bugs, and ask again when it forgets. <strong>Confirm can one.</strong>”
+            </div>
+        </div>
+
+        <!-- ===== EPILOGUE ===== -->
+        <div class="chapter">
+            <h2>🌸 Epilogue <span>can or not?</span></h2>
+            <div class="highlight-box">
+                “Can ah! Steady lah.”
+            </div>
+            <ul style="padding-left:24px;color:#2a2a3a;margin:6px 0;">
+                <li>✅ The pipeline runs.</li>
+                <li>✅ The cursor stays.</li>
+                <li>✅ The cheese is always in the maze.</li>
+                <li>✅ The AI forgets — but the pattern remembers.</li>
+            </ul>
+            <div style="margin-top:12px;font-size:18px;font-weight:400;color:#2d2a6e;">
+                “Like that, can? 🌸”
+            </div>
+            <div style="margin-top:16px;padding:16px 20px;background:#f4f1ed;border-radius:12px;font-style:italic;color:#2a2a3a;">
+                “At the end of the day, all these frameworks are just fancy names for talking.<br />
+                Singlish works. Honesty works. Humour works. <strong>Just talk lah.</strong>”
+            </div>
+        </div>
+
+        <!-- ===== GLOSSARY ===== -->
+        <div class="singlish-glossary">
+            <h3>📖 Singlish Glossary</h3>
+            <div class="glossary-grid">
+                <span class="term">“Wah lao eh”</span><span class="def">“Oh my god” (exasperated)</span>
+                <span class="term">“Like that how?”</span><span class="def">“What do we do now?”</span>
+                <span class="term">“You blur ah?”</span><span class="def">“Are you confused?”</span>
+                <span class="term">“Steady lah”</span><span class="def">“Solid, reliable, good job”</span>
+                <span class="term">“Can or not?”</span><span class="def">“Will this work?”</span>
+                <span class="term">“Can ah!”</span><span class="def">“Yes, it works!”</span>
+                <span class="term">“Wah, sian”</span><span class="def">“Ugh, tired of this”</span>
+                <span class="term">“Don't act smart”</span><span class="def">“Keep it simple”</span>
+                <span class="term">“Kam sia”</span><span class="def">“Thank you” (Hokkien)</span>
+                <span class="term">“Abang”</span><span class="def">“Brother” (Malay)</span>
+                <span class="term">“Confirm chop”</span><span class="def">“Absolutely confirmed”</span>
+            </div>
+        </div>
+
+        <!-- ===== FINAL CHEESE LINE ===== -->
+        <div class="cheese-line">
+            🧀 “The cheese is always in the maze. The cursor is always in the input. And the AI will always need a reminder.”
+        </div>
+
+        <!-- ===== FOOTER ===== -->
+        <div class="footer-note">
+            🌸 <a href="#">DeepBloom Terminal</a> · Built with ☕, 🧀, and a forgetful AI<br />
+            <span style="font-size:13px;color:#8a8a9a;">Wah, this one damn solid. Can post already!</span>
+        </div>
+
+    </div>
+</body>
+</html>
