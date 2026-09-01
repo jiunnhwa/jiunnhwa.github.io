@@ -4,184 +4,184 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>🍇 The River, The Dashboard, and The Document — SRS Blog</title>
-    
+
 <style>
 :root {
-    --bg: #0d0d0d;
-    --surface: #1a1a1e;
-    --border: #2a2a30;
-    --text: #f0f0f0;
-    --text-muted: #8a8a92;
-    --yellow: #fbbf24;
-    --accent: #667eea;
-    --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+--bg: #0d0d0d;
+--surface: #1a1a1e;
+--border: #2a2a30;
+--text: #f0f0f0;
+--text-muted: #8a8a92;
+--yellow: #fbbf24;
+--accent: #667eea;
+--font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font);
-    background: var(--bg);
-    color: var(--text);
-    padding: 2rem 1.5rem;
-    max-width: 780px;
-    margin: 0 auto;
-    line-height: 1.7;
+font-family: var(--font);
+background: var(--bg);
+color: var(--text);
+padding: 2rem 1.5rem;
+max-width: 780px;
+margin: 0 auto;
+line-height: 1.7;
 }
 
 .blog-header {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 1.5rem;
-    margin-bottom: 2rem;
+border-bottom: 1px solid var(--border);
+padding-bottom: 1.5rem;
+margin-bottom: 2rem;
 }
 
 .blog-header .grape {
-    color: var(--yellow);
-    font-size: 1.8rem;
+color: var(--yellow);
+font-size: 1.8rem;
 }
 
 .blog-header h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 0.5rem 0 0.25rem;
-    color: var(--text);
+font-size: 2rem;
+font-weight: 700;
+margin: 0.5rem 0 0.25rem;
+color: var(--text);
 }
 
 .blog-header .sub {
-    color: var(--text-muted);
-    font-size: 0.9rem;
+color: var(--text-muted);
+font-size: 0.9rem;
 }
 
 .blog-header .meta {
-    display: flex;
-    gap: 1.2rem;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    margin-top: 0.5rem;
-    flex-wrap: wrap;
+display: flex;
+gap: 1.2rem;
+font-size: 0.8rem;
+color: var(--text-muted);
+margin-top: 0.5rem;
+flex-wrap: wrap;
 }
 
 .blog-header .meta .tag {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    padding: 0.1rem 0.7rem;
-    border-radius: 12px;
-    font-size: 0.7rem;
+background: var(--surface);
+border: 1px solid var(--border);
+padding: 0.1rem 0.7rem;
+border-radius: 12px;
+font-size: 0.7rem;
 }
 
 .socratic {
-    margin: 1.8rem 0;
-    padding: 1.2rem 1.5rem;
-    border-left: 3px solid var(--yellow);
-    background: var(--surface);
-    border-radius: 0 8px 8px 0;
+margin: 1.8rem 0;
+padding: 1.2rem 1.5rem;
+border-left: 3px solid var(--yellow);
+background: var(--surface);
+border-radius: 0 8px 8px 0;
 }
 
 .socratic .speaker {
-    font-weight: 600;
-    color: var(--yellow);
-    font-size: 0.85rem;
+font-weight: 600;
+color: var(--yellow);
+font-size: 0.85rem;
 }
 
 .socratic .speaker.ai {
-    color: var(--accent);
+color: var(--accent);
 }
 
 .socratic .line {
-    margin: 0.4rem 0 0.8rem 1.2rem;
-    color: var(--text-muted);
+margin: 0.4rem 0 0.8rem 1.2rem;
+color: var(--text-muted);
 }
 
 .socratic .line:last-child {
-    margin-bottom: 0;
+margin-bottom: 0;
 }
 
 .socratic .line .highlight {
-    color: var(--text);
-    font-weight: 500;
+color: var(--text);
+font-weight: 500;
 }
 
 .diagram-container {
-    margin: 2.5rem 0;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1.5rem;
-    overflow: auto;
+margin: 2.5rem 0;
+background: var(--surface);
+border: 1px solid var(--border);
+border-radius: 12px;
+padding: 1.5rem;
+overflow: auto;
 }
 
 .diagram-container .caption {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    text-align: center;
-    margin-top: 0.8rem;
-    letter-spacing: 0.3px;
+font-size: 0.75rem;
+color: var(--text-muted);
+text-align: center;
+margin-top: 0.8rem;
+letter-spacing: 0.3px;
 }
 
 .diagram-container svg {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-    margin: 0 auto;
+display: block;
+width: 100%;
+height: auto;
+max-width: 700px;
+margin: 0 auto;
 }
 
 .akashic {
-    margin: 2rem 0;
-    padding: 1.2rem 1.5rem;
-    background: rgba(251, 191, 36, 0.06);
-    border: 1px solid rgba(251, 191, 36, 0.15);
-    border-radius: 8px;
-    font-style: italic;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    text-align: center;
+margin: 2rem 0;
+padding: 1.2rem 1.5rem;
+background: rgba(251, 191, 36, 0.06);
+border: 1px solid rgba(251, 191, 36, 0.15);
+border-radius: 8px;
+font-style: italic;
+color: var(--text-muted);
+font-size: 0.9rem;
+text-align: center;
 }
 
 .akashic strong {
-    color: var(--yellow);
-    font-style: normal;
+color: var(--yellow);
+font-style: normal;
 }
 
 .footer-note {
-    margin-top: 2.5rem;
-    padding-top: 1.2rem;
-    border-top: 1px solid var(--border);
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+margin-top: 2.5rem;
+padding-top: 1.2rem;
+border-top: 1px solid var(--border);
+font-size: 0.8rem;
+color: var(--text-muted);
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 0.5rem;
 }
 
 .footer-note .credit {
-    color: var(--accent);
+color: var(--accent);
 }
 
 hr {
-    border: none;
-    border-top: 1px solid var(--border);
-    margin: 2rem 0;
+border: none;
+border-top: 1px solid var(--border);
+margin: 2rem 0;
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 1.2rem 1rem;
-    }
-    .blog-header h1 {
-        font-size: 1.5rem;
-    }
-    .socratic .line {
-        margin-left: 0.6rem;
-    }
-    .diagram-container {
-        padding: 0.8rem;
-    }
+body {
+padding: 1.2rem 1rem;
+}
+.blog-header h1 {
+font-size: 1.5rem;
+}
+.socratic .line {
+margin-left: 0.6rem;
+}
+.diagram-container {
+padding: 0.8rem;
+}
 }
 </style>
 </head>
